@@ -1,6 +1,5 @@
 # Medical Chatbot Text Mining Analysis  
 **Author:** Hamed Razavi  
-**Course:** Text Mining – Spring 2025  
 **Project Type:** NLP · Topic Modeling · NER · Co-occurrence Analysis
 
 ---
