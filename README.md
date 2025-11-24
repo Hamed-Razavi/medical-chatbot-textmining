@@ -46,6 +46,3 @@ This work supports improved telemedicine systems, symptom evaluation, and patien
 - Co-occurrence heatmaps  
 - Conversation structure patterns  
 
----
-
-## 📁 Project Structure
