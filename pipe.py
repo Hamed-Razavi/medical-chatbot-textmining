@@ -1,0 +1,21 @@
+import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch
+plt.rcParams.update({'font.family':'serif','font.serif':['DejaVu Serif'],'font.size':6.5})
+fig,ax=plt.subplots(figsize=(5.4,4.4)); ax.set_xlim(-0.25,10.1); ax.set_ylim(0,10); ax.axis('off')
+def box(x,y,w,h,t,fc='#eef3fa'):
+    ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=0.08',fc=fc,ec='#33475b',lw=.6)); ax.text(x+w/2,y+h/2,t,ha='center',va='center')
+def arr(x1,y1,x2,y2): ax.annotate('',(x2,y2),(x1,y1),arrowprops=dict(arrowstyle='->',lw=.6,color='#33475b'))
+box(2.5,8.7,5,1.0,'960 dialogues, 24 disease labels\n(Medical Conversations to Disease)','#f5f5f5')
+arr(5,8.7,5,8.2)
+box(1.0,6.9,8,1.2,'Turn segmentation: patient turns vs. full dialogue\nNormalization, stop-word + filler removal, lemmatization')
+arr(3,6.9,2.2,6.2); arr(7,6.9,7.8,6.2)
+box(0.1,4.6,4.3,1.5,'Bag-of-words / TF-IDF\n(unigrams, min_df = 2)')
+box(5.6,4.6,4.3,1.5,'Symptom extraction (patient turns)\n52-concept lexicon\n+ clause-level negation')
+arr(1.0,4.6,0.7,3.9); arr(2.25,4.6,2.25,3.9); arr(3.5,4.6,3.8,3.9); arr(7.75,4.6,7.75,3.9)
+box(0.0,2.4,1.35,1.4,'LDA\nK=5-30')
+box(1.55,2.4,1.35,1.4,'K-Means\nK=5-30')
+box(3.1,2.4,1.35,1.4,'LogReg\nreference')
+box(5.6,2.4,4.3,1.4,'Apriori\nsupport >= 0.02, conf. >= 0.5,\nlift > 1.5')
+box(0.3,0.1,9.4,1.3,'Evaluation: topic coherence, internal/external cluster validity,\nsupervised TF-IDF + logistic regression reference (5-fold CV),\nrule lift and disease specificity, error analysis','#fdf6e3')
+for x in (0.7,2.25,3.8,7.75): arr(x,2.4,x,1.45)
+plt.savefig('fig_pipeline.png',dpi=300,bbox_inches='tight')

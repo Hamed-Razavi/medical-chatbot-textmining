@@ -1,0 +1,247 @@
+{
+ "fever": [
+  "\\bfevers?\\b",
+  "\\bfeverish\\b",
+  "\\bhigh temperature\\b"
+ ],
+ "chills": [
+  "\\bchills?\\b",
+  "\\bshivering\\b"
+ ],
+ "sweating": [
+  "\\bsweat(ing|s|y)?\\b"
+ ],
+ "headache": [
+  "\\bheadaches?\\b",
+  "\\bhead (hurts|aches?|pain)\\b",
+  "\\bmigraines?\\b",
+  "\\bhead is (heavy|pounding)\\b"
+ ],
+ "fatigue": [
+  "\\btired\\b",
+  "\\bfatigue(d)?\\b",
+  "\\bexhausted\\b",
+  "\\bweak(ness)?\\b",
+  "\\blow energy\\b",
+  "\\bdrained\\b"
+ ],
+ "dizziness": [
+  "\\bdizz(y|iness)\\b",
+  "\\blight-?headed\\b"
+ ],
+ "nausea": [
+  "\\bnause(a|ous|ated)\\b",
+  "\\bqueasy\\b"
+ ],
+ "vomiting": [
+  "\\bvomit(ing|ed)?\\b",
+  "\\bthrow(ing|n)? up\\b",
+  "\\bthrew up\\b"
+ ],
+ "diarrhea": [
+  "\\bdiarrh?(o)?ea\\b",
+  "\\bloose stools?\\b"
+ ],
+ "constipation": [
+  "\\bconstipat(ed|ion)\\b",
+  "\\bstrain(ing)?\\b"
+ ],
+ "abdominal_pain": [
+  "\\bstomach (pain|ache|hurts|cramps?)\\b",
+  "\\bstomachache\\b",
+  "\\babdominal (pain|cramps?)\\b",
+  "\\bcramps?\\b",
+  "\\bbelly (pain|hurts)\\b",
+  "\\bpain in my (stomach|abdomen|belly)\\b",
+  "\\bburning (pain |sensation )?in my stomach\\b"
+ ],
+ "bloating": [
+  "\\bbloat(ed|ing)\\b"
+ ],
+ "heartburn": [
+  "\\bheartburn\\b",
+  "\\bacid\\b",
+  "\\bburning (sensation )?in my (chest|throat)\\b",
+  "\\bregurgitat"
+ ],
+ "loss_of_appetite": [
+  "\\b(loss of|lost my|no|poor) appetite\\b",
+  "\\bnot (hungry|eating much)\\b"
+ ],
+ "weight_loss": [
+  "\\blos(t|ing) weight\\b",
+  "\\bweight loss\\b"
+ ],
+ "cough": [
+  "\\bcough(ing|s)?\\b"
+ ],
+ "sore_throat": [
+  "\\bsore throat\\b",
+  "\\bthroat (is )?(sore|hurts|scratchy)\\b",
+  "\\bscratchy throat\\b"
+ ],
+ "nasal_congestion": [
+  "\\bstuffy\\b",
+  "\\bcongest(ed|ion)\\b",
+  "\\bblocked nose\\b"
+ ],
+ "runny_nose": [
+  "\\brunny nose\\b",
+  "\\bnose is running\\b"
+ ],
+ "sneezing": [
+  "\\bsneez(e|ing|es)\\b"
+ ],
+ "shortness_of_breath": [
+  "\\bshort(ness)? of breath\\b",
+  "\\b(hard|trouble|difficult|difficulty|struggle|struggling) (to )?breath(e|ing)?\\b",
+  "\\bbreathless\\b",
+  "\\bcan'?t breathe\\b",
+  "\\bout of breath\\b"
+ ],
+ "wheezing": [
+  "\\bwheez(e|ing)\\b"
+ ],
+ "chest_pain": [
+  "\\bchest (pain|hurts|tight(ness)?|feels tight|discomfort)\\b",
+  "\\btight(ness)? in (my )?chest\\b",
+  "\\bpain in my chest\\b"
+ ],
+ "mucus": [
+  "\\bmucus\\b",
+  "\\bphlegm\\b",
+  "\\bsputum\\b"
+ ],
+ "joint_pain": [
+  "\\bjoints?\\b.{0,20}\\b(pain|hurt|ache|aching|sore|swollen|stiff)",
+  "\\b(pain|ache|aching|stiff(ness)?|swelling) in (my )?(joints?|knees?|fingers?|hands?|wrists?|hips?)\\b",
+  "\\bknees?\\b.{0,20}\\b(pain|hurt|ache|aching|stiff|swollen)"
+ ],
+ "muscle_pain": [
+  "\\bmuscles?\\b.{0,20}\\b(pain|hurt|ache|aching|sore)",
+  "\\bbody aches?\\b",
+  "\\baches\\b"
+ ],
+ "neck_pain": [
+  "\\bneck\\b.{0,25}\\b(pain|hurt|ache|stiff|stiffness|sore)",
+  "\\b(pain|stiffness|ache) in (my )?neck\\b",
+  "\\bstiff neck\\b"
+ ],
+ "back_pain": [
+  "\\bback (pain|hurts|ache)\\b",
+  "\\bbackache\\b"
+ ],
+ "stiffness": [
+  "\\bstiff(ness)?\\b"
+ ],
+ "numbness_tingling": [
+  "\\bnumb(ness)?\\b",
+  "\\btingl(e|y|ing)\\b",
+  "\\bpins and needles\\b"
+ ],
+ "rash": [
+  "\\brash(es)?\\b",
+  "\\bspots\\b",
+  "\\bred (bumps|patches|marks)\\b"
+ ],
+ "itching": [
+  "\\bitch(y|ing|es)?\\b"
+ ],
+ "skin_patches": [
+  "\\bpatch(es)?\\b",
+  "\\bscal(y|es)\\b",
+  "\\bflak(y|ing)\\b"
+ ],
+ "blisters": [
+  "\\bbliste(r|rs)\\b",
+  "\\bsores\\b",
+  "\\bopen sores?\\b",
+  "\\bfluid-filled\\b",
+  "\\boozing\\b",
+  "\\bcrust(ing|y|s)?\\b"
+ ],
+ "pimples": [
+  "\\bpimples?\\b",
+  "\\bacne\\b",
+  "\\bbreak(ing)? ?outs?\\b",
+  "\\bblackheads?\\b",
+  "\\bwhiteheads?\\b"
+ ],
+ "skin_redness": [
+  "\\bred(ness)?\\b",
+  "\\binflamed\\b"
+ ],
+ "swelling": [
+  "\\bswollen\\b",
+  "\\bswell(ing)?\\b",
+  "\\bpuff(y|iness)\\b"
+ ],
+ "yellow_skin_eyes": [
+  "\\byellow(ish|ing)?\\b"
+ ],
+ "dark_urine": [
+  "\\bdark(er)? urine\\b",
+  "\\burine (is |looks )?(much )?(dark|darker|brown)\\b"
+ ],
+ "pale_stool": [
+  "\\bpale stools?\\b",
+  "\\bstools? (are |is )?(pale|light)\\b",
+  "\\bclay-colored\\b"
+ ],
+ "painful_urination": [
+  "\\bburn(s|ing)? when i (pee|urinate)\\b",
+  "\\b(painful|burning) (urination|sensation when)\\b",
+  "\\bhurts (when|to) (i )?(pee|urinate)\\b",
+  "\\bburning\\b.{0,25}\\burinat"
+ ],
+ "frequent_urination": [
+  "\\bfrequent(ly)? urinat",
+  "\\burinat(e|ing) (a lot|more|frequently|often)\\b",
+  "\\b(pee|peeing) (a lot|more|often)\\b",
+  "\\bbathroom (a lot|more|often|frequently)\\b",
+  "\\bgo to the bathroom\\b"
+ ],
+ "cloudy_urine": [
+  "\\bcloudy\\b",
+  "\\bstrong-?smelling\\b",
+  "\\bfoul-?smelling urine\\b"
+ ],
+ "excessive_thirst": [
+  "\\bthirst(y)?\\b"
+ ],
+ "blurred_vision": [
+  "\\bblur(ry|red)?\\b",
+  "\\bvision\\b"
+ ],
+ "bleeding": [
+  "\\bbleed(ing|s)?\\b",
+  "\\bblood (on|in|when)\\b",
+  "\\bnosebleeds?\\b"
+ ],
+ "leg_veins": [
+  "\\bveins?\\b",
+  "\\bbulging\\b"
+ ],
+ "leg_pain_heaviness": [
+  "\\blegs?\\b.{0,25}\\b(heavy|ache|aching|pain|hurt|tired|cramp)",
+  "\\bheavy legs?\\b"
+ ],
+ "watery_eyes": [
+  "\\b(watery|itchy|red) eyes\\b",
+  "\\beyes (are |feel )?(watery|itchy|red|swollen)\\b"
+ ],
+ "light_sensitivity": [
+  "\\bsensitiv(e|ity) to (light|sound|noise)\\b",
+  "\\blight (bothers|hurts)\\b"
+ ],
+ "eye_pain": [
+  "\\bpain behind (my )?eyes\\b",
+  "\\beyes? (hurt|pain)\\b"
+ ],
+ "anal_swelling_lump": [
+  "\\banus\\b",
+  "\\banal\\b",
+  "\\bhemorrhoids?\\b",
+  "\\blump\\b"
+ ]
+}
