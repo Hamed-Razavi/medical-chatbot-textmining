@@ -1,0 +1,1487 @@
+{
+ "extraction": {
+  "v2": {
+   "coverage_pct": 87.91666666666667,
+   "mean": 2.2583333333333333,
+   "sd": 1.5667069711349504,
+   "total_mentions": 2168,
+   "n_dialogues_none": 116
+  },
+  "v2_no_negation": {
+   "coverage_pct": 88.54166666666666,
+   "mean": 2.3020833333333335,
+   "sd": 1.5715125028933392,
+   "total_mentions": 2210,
+   "n_dialogues_none": 110
+  },
+  "v2_no_elliptical": {
+   "coverage_pct": 87.39583333333333,
+   "mean": 2.165625,
+   "sd": 1.5319556241650227,
+   "total_mentions": 2079,
+   "n_dialogues_none": 121
+  },
+  "v1": {
+   "coverage_pct": 87.5,
+   "mean": 2.183333333333333,
+   "sd": 1.5248150141084684,
+   "total_mentions": 2096,
+   "n_dialogues_none": 120
+  }
+ },
+ "v1_v2_diff": {
+  "added_by_v2": 112,
+  "removed_by_v2": 40
+ },
+ "negation_effect": {
+  "concepts_removed_by_negation": 42,
+  "dialogues_affected": 37
+ },
+ "provenance": {
+  "stated": 2079,
+  "confirmed": 89
+ },
+ "none_by_disease_v2": [
+  [
+   "hypertension",
+   32
+  ],
+  [
+   "cervical spondylosis",
+   21
+  ],
+  [
+   "bronchial asthma",
+   20
+  ],
+  [
+   "drug reaction",
+   16
+  ],
+  [
+   "urinary tract infection",
+   11
+  ],
+  [
+   "arthritis",
+   5
+  ],
+  [
+   "fungal infection",
+   4
+  ],
+  [
+   "peptic ulcer disease",
+   3
+  ]
+ ],
+ "attribution": {
+  "patient_initiated": 1477,
+  "bot_prompted": 691,
+  "bot_only_not_reported": 370
+ },
+ "attribution_share": {
+  "patient_initiated_pct": 68.12730627306273,
+  "bot_prompted_pct": 31.872693726937268
+ },
+ "attribution_by_disease": {
+  "acne": 100.0,
+  "allergy": 97.5,
+  "arthritis": 77.8,
+  "bronchial asthma": 71.1,
+  "cervical spondylosis": 88.9,
+  "chicken pox": 62.6,
+  "common cold": 67.0,
+  "dengue": 47.4,
+  "diabetes": 30.6,
+  "dimorphic hemorrhoids": 67.5,
+  "drug reaction": 86.2,
+  "fungal infection": 64.4,
+  "gastroesophageal reflux disease": 49.3,
+  "hypertension": 87.5,
+  "impetigo": 72.3,
+  "jaundice": 75.8,
+  "malaria": 60.6,
+  "migraine": 94.0,
+  "peptic ulcer disease": 76.7,
+  "pneumonia": 55.7,
+  "psoriasis": 82.3,
+  "typhoid": 66.9,
+  "urinary tract infection": 89.5,
+  "varicose veins": 92.9
+ },
+ "concepts_anywhere": 2546,
+ "concepts_patient_reported": 2168,
+ "freq_top": {
+  "fever": 192,
+  "fatigue": 178,
+  "itching": 168,
+  "rash": 107,
+  "skin_redness": 94,
+  "swelling": 89,
+  "bleeding": 75,
+  "blisters": 75,
+  "abdominal_pain": 69,
+  "cough": 68,
+  "skin_patches": 65,
+  "headache": 62,
+  "joint_pain": 53,
+  "sweating": 49,
+  "nausea": 48
+ },
+ "spread_ge10pct": [
+  [
+   "fatigue",
+   10
+  ],
+  [
+   "itching",
+   7
+  ],
+  [
+   "fever",
+   6
+  ],
+  [
+   "rash",
+   6
+  ],
+  [
+   "nausea",
+   5
+  ],
+  [
+   "cough",
+   4
+  ],
+  [
+   "skin_redness",
+   4
+  ],
+  [
+   "chills",
+   3
+  ],
+  [
+   "skin_patches",
+   3
+  ],
+  [
+   "swelling",
+   3
+  ]
+ ],
+ "rules": {
+  "n_frequent_itemsets": 101,
+  "n_rules_tested": 226,
+  "n_rules_selected": 105,
+  "n_itemsets_selected": 50,
+  "itemsets_single_disease": 32,
+  "itemsets_dom80": 37,
+  "itemsets_sig_bonf": 50,
+  "itemsets_sig_bh": 50,
+  "itemsets_mh_ci_above1": 3,
+  "itemsets_mh_undefined": 26,
+  "all_freq_itemsets_ge2": 67,
+  "all_freq_single_disease": 39
+ },
+ "itemset_table": [
+  {
+   "rule": "yellow skin eyes => dark urine",
+   "support": 0.023,
+   "conf": 0.55,
+   "lift": 24.0,
+   "lift_ci": [
+    18.11,
+    34.29
+   ],
+   "p_bonf": 9.010242037449049e-32,
+   "q_bh": 2.1452957232021543e-33,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "jaundice (22)",
+   "n_dis": 1
+  },
+  {
+   "rule": "diarrhea => abdominal pain + fever",
+   "support": 0.041,
+   "conf": 1.0,
+   "lift": 24.0,
+   "lift_ci": [
+    18.46,
+    33.1
+   ],
+   "p_bonf": 1.981389192507828e-66,
+   "q_bh": 9.90694596253914e-67,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "typhoid (39)",
+   "n_dis": 1
+  },
+  {
+   "rule": "anal swelling lump => bleeding + swelling",
+   "support": 0.023,
+   "conf": 0.52,
+   "lift": 21.86,
+   "lift_ci": [
+    16.86,
+    30.13
+   ],
+   "p_bonf": 9.199513743908928e-30,
+   "q_bh": 1.533252290651488e-31,
+   "or_mh": 1.38,
+   "or_mh_ci": [
+    0.08,
+    23.67
+   ],
+   "labels": "dimorphic hemorrhoids (22)",
+   "n_dis": 1
+  },
+  {
+   "rule": "muscle pain => bleeding + fever",
+   "support": 0.028,
+   "conf": 0.69,
+   "lift": 17.96,
+   "lift_ci": [
+    14.15,
+    24.24
+   ],
+   "p_bonf": 1.2877856032478029e-32,
+   "q_bh": 3.7876047154347144e-34,
+   "or_mh": 1.35,
+   "or_mh_ci": [
+    0.11,
+    16.57
+   ],
+   "labels": "dengue (27)",
+   "n_dis": 1
+  },
+  {
+   "rule": "muscle pain => bleeding + joint pain",
+   "support": 0.025,
+   "conf": 0.62,
+   "lift": 17.9,
+   "lift_ci": [
+    13.78,
+    24.62
+   ],
+   "p_bonf": 4.206742428174339e-28,
+   "q_bh": 6.785068432539257e-30,
+   "or_mh": 1.07,
+   "or_mh_ci": [
+    0.17,
+    6.52
+   ],
+   "labels": "dengue (24)",
+   "n_dis": 1
+  },
+  {
+   "rule": "muscle pain => joint pain + rash",
+   "support": 0.027,
+   "conf": 0.67,
+   "lift": 17.78,
+   "lift_ci": [
+    13.75,
+    24.24
+   ],
+   "p_bonf": 6.6832388360705755e-31,
+   "q_bh": 1.2852382377058798e-32,
+   "or_mh": 0.87,
+   "or_mh_ci": [
+    0.08,
+    9.34
+   ],
+   "labels": "dengue (26)",
+   "n_dis": 1
+  },
+  {
+   "rule": "muscle pain => fever + joint pain",
+   "support": 0.027,
+   "conf": 0.67,
+   "lift": 17.78,
+   "lift_ci": [
+    13.75,
+    24.24
+   ],
+   "p_bonf": 6.6832388360705755e-31,
+   "q_bh": 1.2852382377058798e-32,
+   "or_mh": 0.87,
+   "or_mh_ci": [
+    0.08,
+    9.34
+   ],
+   "labels": "dengue (26)",
+   "n_dis": 1
+  },
+  {
+   "rule": "muscle pain => bleeding + rash",
+   "support": 0.028,
+   "conf": 0.69,
+   "lift": 17.49,
+   "lift_ci": [
+    13.61,
+    23.57
+   ],
+   "p_bonf": 4.392971649375771e-32,
+   "q_bh": 1.1560451708883608e-33,
+   "or_mh": 1.35,
+   "or_mh_ci": [
+    0.11,
+    16.57
+   ],
+   "labels": "dengue (27)",
+   "n_dis": 1
+  },
+  {
+   "rule": "chills => fever + sweating",
+   "support": 0.029,
+   "conf": 0.64,
+   "lift": 17.45,
+   "lift_ci": [
+    13.58,
+    23.98
+   ],
+   "p_bonf": 8.013930244066593e-34,
+   "q_bh": 2.6713100813555306e-35,
+   "or_mh": 1.0,
+   "or_mh_ci": [
+    0.1,
+    10.41
+   ],
+   "labels": "malaria (28)",
+   "n_dis": 1
+  },
+  {
+   "rule": "bleeding + fever => joint pain",
+   "support": 0.034,
+   "conf": 0.89,
+   "lift": 16.16,
+   "lift_ci": [
+    12.72,
+    21.52
+   ],
+   "p_bonf": 1.6165173738049192e-40,
+   "q_bh": 1.6165173738049191e-41,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (33)",
+   "n_dis": 1
+  },
+  {
+   "rule": "bleeding + rash => joint pain",
+   "support": 0.034,
+   "conf": 0.87,
+   "lift": 15.73,
+   "lift_ci": [
+    12.41,
+    20.96
+   ],
+   "p_bonf": 1.2027204923203444e-39,
+   "q_bh": 1.0022670769336203e-40,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (33)",
+   "n_dis": 1
+  },
+  {
+   "rule": "diarrhea => abdominal pain",
+   "support": 0.041,
+   "conf": 1.0,
+   "lift": 13.91,
+   "lift_ci": [
+    11.43,
+    17.78
+   ],
+   "p_bonf": 1.5666487711562594e-48,
+   "q_bh": 2.611081285260432e-49,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "typhoid (39)",
+   "n_dis": 1
+  },
+  {
+   "rule": "chills => sweating",
+   "support": 0.029,
+   "conf": 0.64,
+   "lift": 12.47,
+   "lift_ci": [
+    9.7,
+    16.64
+   ],
+   "p_bonf": 3.6707259738686946e-27,
+   "q_bh": 5.098230519262076e-29,
+   "or_mh": 1.0,
+   "or_mh_ci": [
+    0.1,
+    10.41
+   ],
+   "labels": "malaria (28)",
+   "n_dis": 1
+  },
+  {
+   "rule": "muscle pain => joint pain",
+   "support": 0.027,
+   "conf": 0.67,
+   "lift": 12.08,
+   "lift_ci": [
+    9.41,
+    15.58
+   ],
+   "p_bonf": 2.0261261561081654e-24,
+   "q_bh": 2.155453357561878e-26,
+   "or_mh": 0.87,
+   "or_mh_ci": [
+    0.08,
+    9.34
+   ],
+   "labels": "dengue (26)",
+   "n_dis": 1
+  },
+  {
+   "rule": "muscle pain => fever + rash",
+   "support": 0.03,
+   "conf": 0.74,
+   "lift": 10.98,
+   "lift_ci": [
+    8.72,
+    14.0
+   ],
+   "p_bonf": 1.0880013428678154e-26,
+   "q_bh": 1.3948735164971992e-28,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (29)",
+   "n_dis": 1
+  },
+  {
+   "rule": "chest pain => cough",
+   "support": 0.026,
+   "conf": 0.76,
+   "lift": 10.7,
+   "lift_ci": [
+    8.43,
+    13.72
+   ],
+   "p_bonf": 3.406939691805015e-22,
+   "q_bh": 3.154573788708347e-24,
+   "or_mh": 3.14,
+   "or_mh_ci": [
+    0.98,
+    10.12
+   ],
+   "labels": "pneumonia (20); bronchial asthma (4); allergy (1)",
+   "n_dis": 3
+  },
+  {
+   "rule": "shortness of breath => cough",
+   "support": 0.029,
+   "conf": 0.74,
+   "lift": 10.4,
+   "lift_ci": [
+    8.23,
+    13.55
+   ],
+   "p_bonf": 9.907564531565635e-25,
+   "q_bh": 1.1008405035072927e-26,
+   "or_mh": 2.38,
+   "or_mh_ci": [
+    0.69,
+    8.22
+   ],
+   "labels": "pneumonia (24); bronchial asthma (3); allergy (1)",
+   "n_dis": 3
+  },
+  {
+   "rule": "anal swelling lump => bleeding",
+   "support": 0.035,
+   "conf": 0.81,
+   "lift": 10.36,
+   "lift_ci": [
+    8.33,
+    13.06
+   ],
+   "p_bonf": 1.0059033075013238e-31,
+   "q_bh": 2.286143880684827e-33,
+   "or_mh": 8.5,
+   "or_mh_ci": [
+    0.44,
+    163.89
+   ],
+   "labels": "dimorphic hemorrhoids (34)",
+   "n_dis": 1
+  },
+  {
+   "rule": "fever + itching => blisters",
+   "support": 0.026,
+   "conf": 0.81,
+   "lift": 10.32,
+   "lift_ci": [
+    8.17,
+    13.36
+   ],
+   "p_bonf": 3.7575525324974215e-22,
+   "q_bh": 3.415956847724929e-24,
+   "or_mh": 0.52,
+   "or_mh_ci": [
+    0.05,
+    5.0
+   ],
+   "labels": "chicken pox (25)",
+   "n_dis": 1
+  },
+  {
+   "rule": "rash + skin patches => skin redness",
+   "support": 0.022,
+   "conf": 1.0,
+   "lift": 10.21,
+   "lift_ci": [
+    8.65,
+    12.47
+   ],
+   "p_bonf": 1.61493509535517e-20,
+   "q_bh": 1.3237172912747296e-22,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "psoriasis (15); fungal infection (4); allergy (2)",
+   "n_dis": 3
+  },
+  {
+   "rule": "fever + rash => joint pain",
+   "support": 0.038,
+   "conf": 0.55,
+   "lift": 10.03,
+   "lift_ci": [
+    8.1,
+    12.94
+   ],
+   "p_bonf": 3.381696092478799e-32,
+   "q_bh": 9.393600256885554e-34,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (36)",
+   "n_dis": 1
+  },
+  {
+   "rule": "leg veins => swelling",
+   "support": 0.035,
+   "conf": 0.85,
+   "lift": 9.17,
+   "lift_ci": [
+    7.59,
+    11.45
+   ],
+   "p_bonf": 5.7093028505634726e-30,
+   "q_bh": 9.84362560441978e-32,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "varicose veins (34)",
+   "n_dis": 1
+  },
+  {
+   "rule": "bleeding + fever => rash",
+   "support": 0.039,
+   "conf": 1.0,
+   "lift": 8.97,
+   "lift_ci": [
+    7.62,
+    10.91
+   ],
+   "p_bonf": 2.1160553057015576e-36,
+   "q_bh": 1.1755862809453098e-37,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (37)",
+   "n_dis": 1
+  },
+  {
+   "rule": "skin patches => itching + skin redness",
+   "support": 0.046,
+   "conf": 0.68,
+   "lift": 8.9,
+   "lift_ci": [
+    7.38,
+    10.97
+   ],
+   "p_bonf": 5.834770318432253e-38,
+   "q_bh": 3.946195834220945e-39,
+   "or_mh": 3.63,
+   "or_mh_ci": [
+    1.26,
+    10.47
+   ],
+   "labels": "psoriasis (32); fungal infection (10); allergy (2)",
+   "n_dis": 3
+  },
+  {
+   "rule": "muscle pain => bleeding",
+   "support": 0.028,
+   "conf": 0.69,
+   "lift": 8.86,
+   "lift_ci": [
+    6.88,
+    11.15
+   ],
+   "p_bonf": 4.162877158368044e-21,
+   "q_bh": 3.651646630147407e-23,
+   "or_mh": 1.35,
+   "or_mh_ci": [
+    0.11,
+    16.57
+   ],
+   "labels": "dengue (27)",
+   "n_dis": 1
+  },
+  {
+   "rule": "joint pain => bleeding",
+   "support": 0.034,
+   "conf": 0.62,
+   "lift": 7.97,
+   "lift_ci": [
+    6.47,
+    10.09
+   ],
+   "p_bonf": 2.1843728130707082e-24,
+   "q_bh": 2.2753883469486545e-26,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (33)",
+   "n_dis": 1
+  },
+  {
+   "rule": "itching + rash => skin redness",
+   "support": 0.038,
+   "conf": 0.75,
+   "lift": 7.66,
+   "lift_ci": [
+    6.38,
+    9.33
+   ],
+   "p_bonf": 2.876472255345182e-27,
+   "q_bh": 4.230106257860562e-29,
+   "or_mh": 4.8,
+   "or_mh_ci": [
+    1.98,
+    11.59
+   ],
+   "labels": "psoriasis (15); chicken pox (14); fungal infection (5)",
+   "n_dis": 4
+  },
+  {
+   "rule": "skin patches => skin redness",
+   "support": 0.048,
+   "conf": 0.71,
+   "lift": 7.23,
+   "lift_ci": [
+    6.04,
+    8.91
+   ],
+   "p_bonf": 1.7333749953513916e-34,
+   "q_bh": 6.190624983397827e-36,
+   "or_mh": 1.64,
+   "or_mh_ci": [
+    0.61,
+    4.4
+   ],
+   "labels": "psoriasis (34); fungal infection (10); allergy (2)",
+   "n_dis": 3
+  },
+  {
+   "rule": "muscle pain => rash",
+   "support": 0.03,
+   "conf": 0.74,
+   "lift": 6.67,
+   "lift_ci": [
+    5.37,
+    8.23
+   ],
+   "p_bonf": 3.3365180299582315e-19,
+   "q_bh": 2.6066547109048684e-21,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (29)",
+   "n_dis": 1
+  },
+  {
+   "rule": "anal swelling lump => swelling",
+   "support": 0.026,
+   "conf": 0.6,
+   "lift": 6.42,
+   "lift_ci": [
+    4.88,
+    8.24
+   ],
+   "p_bonf": 8.87026986600035e-15,
+   "q_bh": 6.075527305479691e-17,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dimorphic hemorrhoids (25)",
+   "n_dis": 1
+  },
+  {
+   "rule": "joint pain => rash",
+   "support": 0.038,
+   "conf": 0.68,
+   "lift": 6.09,
+   "lift_ci": [
+    4.99,
+    7.48
+   ],
+   "p_bonf": 2.348442098929193e-22,
+   "q_bh": 2.2155114140841446e-24,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (36)",
+   "n_dis": 1
+  },
+  {
+   "rule": "rash + skin patches => itching",
+   "support": 0.022,
+   "conf": 1.0,
+   "lift": 5.71,
+   "lift_ci": [
+    5.0,
+    6.67
+   ],
+   "p_bonf": 9.709351024119948e-15,
+   "q_bh": 6.56037231359456e-17,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "psoriasis (15); fungal infection (4); allergy (2)",
+   "n_dis": 3
+  },
+  {
+   "rule": "skin patches => itching",
+   "support": 0.06,
+   "conf": 0.89,
+   "lift": 5.1,
+   "lift_ci": [
+    4.45,
+    5.94
+   ],
+   "p_bonf": 6.313913334753512e-38,
+   "q_bh": 3.946195834220945e-39,
+   "or_mh": 6.21,
+   "or_mh_ci": [
+    1.52,
+    25.31
+   ],
+   "labels": "psoriasis (38); fungal infection (14); impetigo (4)",
+   "n_dis": 4
+  },
+  {
+   "rule": "fatigue + rash => fever",
+   "support": 0.038,
+   "conf": 1.0,
+   "lift": 5.0,
+   "lift_ci": [
+    4.44,
+    5.68
+   ],
+   "p_bonf": 9.073427021247103e-25,
+   "q_bh": 1.0310712524144436e-26,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (19); chicken pox (17)",
+   "n_dis": 2
+  },
+  {
+   "rule": "blisters + fatigue => fever",
+   "support": 0.024,
+   "conf": 1.0,
+   "lift": 5.0,
+   "lift_ci": [
+    4.44,
+    5.68
+   ],
+   "p_bonf": 6.267883670378399e-15,
+   "q_bh": 4.3526969933183326e-17,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "chicken pox (23)",
+   "n_dis": 1
+  },
+  {
+   "rule": "chills + fatigue => fever",
+   "support": 0.023,
+   "conf": 1.0,
+   "lift": 5.0,
+   "lift_ci": [
+    4.44,
+    5.68
+   ],
+   "p_bonf": 3.458396989891141e-14,
+   "q_bh": 2.3055979932607606e-16,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "malaria (20); dengue (2)",
+   "n_dis": 2
+  },
+  {
+   "rule": "diarrhea => fever",
+   "support": 0.041,
+   "conf": 1.0,
+   "lift": 5.0,
+   "lift_ci": [
+    4.44,
+    5.68
+   ],
+   "p_bonf": 4.296786496878496e-27,
+   "q_bh": 5.653666443261179e-29,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "typhoid (39)",
+   "n_dis": 1
+  },
+  {
+   "rule": "fatigue + sweating => fever",
+   "support": 0.025,
+   "conf": 1.0,
+   "lift": 5.0,
+   "lift_ci": [
+    4.44,
+    5.68
+   ],
+   "p_bonf": 1.1304934261408212e-15,
+   "q_bh": 8.074953043863009e-18,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "malaria (24)",
+   "n_dis": 1
+  },
+  {
+   "rule": "chills => fever",
+   "support": 0.046,
+   "conf": 1.0,
+   "lift": 5.0,
+   "lift_ci": [
+    4.44,
+    5.68
+   ],
+   "p_bonf": 5.144678999362573e-31,
+   "q_bh": 1.0718081248672027e-32,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "malaria (32); pneumonia (6); chicken pox (4)",
+   "n_dis": 4
+  },
+  {
+   "rule": "muscle pain => fever",
+   "support": 0.039,
+   "conf": 0.95,
+   "lift": 4.74,
+   "lift_ci": [
+    4.13,
+    5.5
+   ],
+   "p_bonf": 7.941169344956958e-23,
+   "q_bh": 7.785460142114665e-25,
+   "or_mh": 8.75,
+   "or_mh_ci": [
+    0.54,
+    142.69
+   ],
+   "labels": "dengue (29); malaria (7); common cold (1)",
+   "n_dis": 3
+  },
+  {
+   "rule": "bleeding => rash",
+   "support": 0.04,
+   "conf": 0.51,
+   "lift": 4.55,
+   "lift_ci": [
+    3.63,
+    5.59
+   ],
+   "p_bonf": 3.182796010132019e-17,
+   "q_bh": 2.3752209030835966e-19,
+   "or_mh": 0.82,
+   "or_mh_ci": [
+    0.07,
+    9.91
+   ],
+   "labels": "dengue (37); psoriasis (1)",
+   "n_dis": 2
+  },
+  {
+   "rule": "skin redness => itching",
+   "support": 0.076,
+   "conf": 0.78,
+   "lift": 4.44,
+   "lift_ci": [
+    3.86,
+    5.15
+   ],
+   "p_bonf": 8.017767876190966e-41,
+   "q_bh": 1.0022209845238707e-41,
+   "or_mh": 1.23,
+   "or_mh_ci": [
+    0.61,
+    2.49
+   ],
+   "labels": "psoriasis (32); chicken pox (17); fungal infection (17)",
+   "n_dis": 6
+  },
+  {
+   "rule": "blisters => itching",
+   "support": 0.06,
+   "conf": 0.77,
+   "lift": 4.42,
+   "lift_ci": [
+    3.77,
+    5.21
+   ],
+   "p_bonf": 7.381064926814264e-31,
+   "q_bh": 1.3668638753359748e-32,
+   "or_mh": 1.1,
+   "or_mh_ci": [
+    0.19,
+    6.29
+   ],
+   "labels": "impetigo (31); chicken pox (25); fungal infection (2)",
+   "n_dis": 3
+  },
+  {
+   "rule": "fatigue + itching => fever",
+   "support": 0.023,
+   "conf": 0.79,
+   "lift": 3.93,
+   "lift_ci": [
+    3.14,
+    4.81
+   ],
+   "p_bonf": 4.14950701336234e-09,
+   "q_bh": 2.3576744394104204e-11,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "chicken pox (22)",
+   "n_dis": 1
+  },
+  {
+   "rule": "sweating => fever",
+   "support": 0.036,
+   "conf": 0.71,
+   "lift": 3.57,
+   "lift_ci": [
+    2.89,
+    4.27
+   ],
+   "p_bonf": 2.844486765324902e-13,
+   "q_bh": 1.8470693281330534e-15,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "malaria (35)",
+   "n_dis": 1
+  },
+  {
+   "rule": "joint pain => fever",
+   "support": 0.038,
+   "conf": 0.68,
+   "lift": 3.4,
+   "lift_ci": [
+    2.79,
+    4.06
+   ],
+   "p_bonf": 1.3543420731198014e-12,
+   "q_bh": 8.571785272910135e-15,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (36)",
+   "n_dis": 1
+  },
+  {
+   "rule": "rash => fever",
+   "support": 0.068,
+   "conf": 0.61,
+   "lift": 3.04,
+   "lift_ci": [
+    2.62,
+    3.53
+   ],
+   "p_bonf": 5.664714575067135e-21,
+   "q_bh": 4.8833746336785647e-23,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "dengue (40); chicken pox (25)",
+   "n_dis": 2
+  },
+  {
+   "rule": "abdominal pain => fever",
+   "support": 0.042,
+   "conf": 0.58,
+   "lift": 2.9,
+   "lift_ci": [
+    2.31,
+    3.51
+   ],
+   "p_bonf": 9.613987273621347e-11,
+   "q_bh": 5.862187361964236e-13,
+   "or_mh": null,
+   "or_mh_ci": [
+    null,
+    null
+   ],
+   "labels": "typhoid (40)",
+   "n_dis": 1
+  },
+  {
+   "rule": "fever => fatigue",
+   "support": 0.105,
+   "conf": 0.53,
+   "lift": 2.84,
+   "lift_ci": [
+    2.53,
+    3.22
+   ],
+   "p_bonf": 5.066692534689287e-33,
+   "q_bh": 1.5833414170904023e-34,
+   "or_mh": 0.75,
+   "or_mh_ci": [
+    0.28,
+    2.03
+   ],
+   "labels": "chicken pox (29); malaria (26); dengue (19)",
+   "n_dis": 6
+  },
+  {
+   "rule": "chills => fatigue",
+   "support": 0.023,
+   "conf": 0.5,
+   "lift": 2.7,
+   "lift_ci": [
+    1.93,
+    3.47
+   ],
+   "p_bonf": 0.00026724797607600184,
+   "q_bh": 1.3230097825544646e-06,
+   "or_mh": 0.3,
+   "or_mh_ci": [
+    0.1,
+    0.89
+   ],
+   "labels": "malaria (20); dengue (2)",
+   "n_dis": 2
+  }
+ ],
+ "fever_headache": {
+  "n_fever": 192,
+  "n_headache": 62,
+  "observed": 13,
+  "expected": 12.4,
+  "lift": 1.0483870967741935,
+  "lift_ci": [
+   0.5999253731343284,
+   1.5841729440735708
+  ],
+  "fisher_two_sided_p": 0.8696160260491412,
+  "mh_or": {
+   "or_mh": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ]
+  },
+  "diseases": [
+   [
+    "malaria",
+    10
+   ],
+   [
+    "dengue",
+    2
+   ],
+   [
+    "chicken pox",
+    1
+   ]
+  ]
+ },
+ "threshold_grid": [
+  {
+   "minsup": 0.01,
+   "minconf": 0.3,
+   "minlift": 1.2,
+   "n_itemsets": 122,
+   "single_pct": 68.0,
+   "dom80_pct": 79.5
+  },
+  {
+   "minsup": 0.01,
+   "minconf": 0.3,
+   "minlift": 1.5,
+   "n_itemsets": 122,
+   "single_pct": 68.0,
+   "dom80_pct": 79.5
+  },
+  {
+   "minsup": 0.01,
+   "minconf": 0.3,
+   "minlift": 2.0,
+   "n_itemsets": 114,
+   "single_pct": 68.4,
+   "dom80_pct": 78.9
+  },
+  {
+   "minsup": 0.01,
+   "minconf": 0.5,
+   "minlift": 1.2,
+   "n_itemsets": 94,
+   "single_pct": 74.5,
+   "dom80_pct": 81.9
+  },
+  {
+   "minsup": 0.01,
+   "minconf": 0.5,
+   "minlift": 1.5,
+   "n_itemsets": 94,
+   "single_pct": 74.5,
+   "dom80_pct": 81.9
+  },
+  {
+   "minsup": 0.01,
+   "minconf": 0.5,
+   "minlift": 2.0,
+   "n_itemsets": 94,
+   "single_pct": 74.5,
+   "dom80_pct": 81.9
+  },
+  {
+   "minsup": 0.01,
+   "minconf": 0.7,
+   "minlift": 1.2,
+   "n_itemsets": 75,
+   "single_pct": 76.0,
+   "dom80_pct": 82.7
+  },
+  {
+   "minsup": 0.01,
+   "minconf": 0.7,
+   "minlift": 1.5,
+   "n_itemsets": 75,
+   "single_pct": 76.0,
+   "dom80_pct": 82.7
+  },
+  {
+   "minsup": 0.01,
+   "minconf": 0.7,
+   "minlift": 2.0,
+   "n_itemsets": 75,
+   "single_pct": 76.0,
+   "dom80_pct": 82.7
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.3,
+   "minlift": 1.2,
+   "n_itemsets": 90,
+   "single_pct": 63.3,
+   "dom80_pct": 73.3
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.3,
+   "minlift": 1.5,
+   "n_itemsets": 90,
+   "single_pct": 63.3,
+   "dom80_pct": 73.3
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.3,
+   "minlift": 2.0,
+   "n_itemsets": 85,
+   "single_pct": 64.7,
+   "dom80_pct": 72.9
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.5,
+   "minlift": 1.2,
+   "n_itemsets": 72,
+   "single_pct": 68.1,
+   "dom80_pct": 76.4
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.5,
+   "minlift": 1.5,
+   "n_itemsets": 72,
+   "single_pct": 68.1,
+   "dom80_pct": 76.4
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.5,
+   "minlift": 2.0,
+   "n_itemsets": 72,
+   "single_pct": 68.1,
+   "dom80_pct": 76.4
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.7,
+   "minlift": 1.2,
+   "n_itemsets": 56,
+   "single_pct": 69.6,
+   "dom80_pct": 76.8
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.7,
+   "minlift": 1.5,
+   "n_itemsets": 56,
+   "single_pct": 69.6,
+   "dom80_pct": 76.8
+  },
+  {
+   "minsup": 0.015,
+   "minconf": 0.7,
+   "minlift": 2.0,
+   "n_itemsets": 56,
+   "single_pct": 69.6,
+   "dom80_pct": 76.8
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.3,
+   "minlift": 1.2,
+   "n_itemsets": 64,
+   "single_pct": 57.8,
+   "dom80_pct": 70.3
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.3,
+   "minlift": 1.5,
+   "n_itemsets": 64,
+   "single_pct": 57.8,
+   "dom80_pct": 70.3
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.3,
+   "minlift": 2.0,
+   "n_itemsets": 60,
+   "single_pct": 60.0,
+   "dom80_pct": 70.0
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.5,
+   "minlift": 1.2,
+   "n_itemsets": 50,
+   "single_pct": 64.0,
+   "dom80_pct": 74.0
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.5,
+   "minlift": 1.5,
+   "n_itemsets": 50,
+   "single_pct": 64.0,
+   "dom80_pct": 74.0
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.5,
+   "minlift": 2.0,
+   "n_itemsets": 50,
+   "single_pct": 64.0,
+   "dom80_pct": 74.0
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.7,
+   "minlift": 1.2,
+   "n_itemsets": 38,
+   "single_pct": 63.2,
+   "dom80_pct": 71.1
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.7,
+   "minlift": 1.5,
+   "n_itemsets": 38,
+   "single_pct": 63.2,
+   "dom80_pct": 71.1
+  },
+  {
+   "minsup": 0.02,
+   "minconf": 0.7,
+   "minlift": 2.0,
+   "n_itemsets": 38,
+   "single_pct": 63.2,
+   "dom80_pct": 71.1
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.3,
+   "minlift": 1.2,
+   "n_itemsets": 33,
+   "single_pct": 54.5,
+   "dom80_pct": 57.6
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.3,
+   "minlift": 1.5,
+   "n_itemsets": 33,
+   "single_pct": 54.5,
+   "dom80_pct": 57.6
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.3,
+   "minlift": 2.0,
+   "n_itemsets": 32,
+   "single_pct": 56.2,
+   "dom80_pct": 59.4
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.5,
+   "minlift": 1.2,
+   "n_itemsets": 28,
+   "single_pct": 57.1,
+   "dom80_pct": 60.7
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.5,
+   "minlift": 1.5,
+   "n_itemsets": 28,
+   "single_pct": 57.1,
+   "dom80_pct": 60.7
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.5,
+   "minlift": 2.0,
+   "n_itemsets": 28,
+   "single_pct": 57.1,
+   "dom80_pct": 60.7
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.7,
+   "minlift": 1.2,
+   "n_itemsets": 21,
+   "single_pct": 57.1,
+   "dom80_pct": 57.1
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.7,
+   "minlift": 1.5,
+   "n_itemsets": 21,
+   "single_pct": 57.1,
+   "dom80_pct": 57.1
+  },
+  {
+   "minsup": 0.03,
+   "minconf": 0.7,
+   "minlift": 2.0,
+   "n_itemsets": 21,
+   "single_pct": 57.1,
+   "dom80_pct": 57.1
+  }
+ ],
+ "ablation_rules": {
+  "v2_no_negation": {
+   "n_itemsets": 49,
+   "only_here": 0,
+   "missing_here": 1
+  },
+  "v2_no_elliptical": {
+   "n_itemsets": 48,
+   "only_here": 2,
+   "missing_here": 4
+  },
+  "v1": {
+   "n_itemsets": 40,
+   "only_here": 3,
+   "missing_here": 13
+  }
+ },
+ "yellow_impetigo_rule_present": false,
+ "yellow_by_disease": [
+  [
+   "jaundice",
+   40
+  ]
+ ]
+}

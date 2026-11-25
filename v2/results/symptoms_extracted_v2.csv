@@ -1,0 +1,961 @@
+disease,symptoms_v2,provenance
+allergy,"['itching', 'nasal_congestion', 'sneezing', 'watery_eyes']","{'sneezing': 'stated', 'nasal_congestion': 'stated', 'itching': 'stated', 'watery_eyes': 'stated'}"
+allergy,['rash'],{'rash': 'stated'}
+allergy,"['itching', 'sneezing', 'swelling', 'watery_eyes']","{'sneezing': 'stated', 'itching': 'stated', 'watery_eyes': 'stated', 'swelling': 'stated'}"
+allergy,"['headache', 'nasal_congestion']","{'nasal_congestion': 'stated', 'headache': 'stated'}"
+allergy,['itching'],{'itching': 'stated'}
+allergy,"['chest_pain', 'wheezing']","{'chest_pain': 'stated', 'wheezing': 'stated'}"
+allergy,"['itching', 'runny_nose']","{'itching': 'stated', 'runny_nose': 'stated'}"
+allergy,"['cough', 'skin_redness', 'watery_eyes']","{'cough': 'stated', 'watery_eyes': 'stated', 'skin_redness': 'stated'}"
+allergy,"['fatigue', 'itching']","{'fatigue': 'stated', 'itching': 'stated'}"
+allergy,"['sneezing', 'sore_throat']","{'sneezing': 'stated', 'sore_throat': 'stated'}"
+allergy,['pimples'],{'pimples': 'stated'}
+allergy,['nasal_congestion'],{'nasal_congestion': 'stated'}
+allergy,['sneezing'],{'sneezing': 'stated'}
+allergy,"['itching', 'nasal_congestion', 'watery_eyes']","{'itching': 'stated', 'watery_eyes': 'stated', 'nasal_congestion': 'stated'}"
+allergy,"['cough', 'shortness_of_breath']","{'shortness_of_breath': 'stated', 'cough': 'stated'}"
+allergy,['rash'],{'rash': 'stated'}
+allergy,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'itching': 'stated', 'skin_redness': 'stated'}"
+allergy,['itching'],{'itching': 'stated'}
+allergy,"['shortness_of_breath', 'wheezing']","{'shortness_of_breath': 'stated', 'wheezing': 'stated'}"
+allergy,['swelling'],{'swelling': 'stated'}
+allergy,['sneezing'],{'sneezing': 'stated'}
+allergy,"['dizziness', 'itching']","{'dizziness': 'stated', 'itching': 'stated'}"
+allergy,"['itching', 'rash']","{'rash': 'stated', 'itching': 'stated'}"
+allergy,['fatigue'],{'fatigue': 'stated'}
+allergy,"['headache', 'nasal_congestion']","{'nasal_congestion': 'stated', 'headache': 'stated'}"
+allergy,"['itching', 'nasal_congestion', 'sneezing']","{'itching': 'stated', 'sneezing': 'stated', 'nasal_congestion': 'stated'}"
+allergy,"['itching', 'sneezing', 'watery_eyes']","{'sneezing': 'stated', 'itching': 'stated', 'watery_eyes': 'stated'}"
+allergy,['swelling'],{'swelling': 'stated'}
+allergy,"['sore_throat', 'watery_eyes']","{'watery_eyes': 'stated', 'sore_throat': 'stated'}"
+allergy,"['itching', 'rash']","{'itching': 'stated', 'rash': 'stated'}"
+allergy,"['dizziness', 'itching']","{'dizziness': 'stated', 'itching': 'stated'}"
+allergy,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+allergy,"['runny_nose', 'sneezing']","{'sneezing': 'stated', 'runny_nose': 'stated'}"
+allergy,['bloating'],{'bloating': 'stated'}
+allergy,"['itching', 'sneezing']","{'sneezing': 'stated', 'itching': 'stated'}"
+allergy,['rash'],{'rash': 'stated'}
+allergy,"['chest_pain', 'cough']","{'cough': 'stated', 'chest_pain': 'stated'}"
+allergy,['sneezing'],{'sneezing': 'stated'}
+allergy,['rash'],{'rash': 'stated'}
+allergy,"['fatigue', 'itching', 'nasal_congestion', 'watery_eyes']","{'fatigue': 'stated', 'itching': 'stated', 'nasal_congestion': 'stated', 'watery_eyes': 'stated'}"
+bronchial asthma,"['chest_pain', 'cough', 'shortness_of_breath', 'wheezing']","{'cough': 'stated', 'chest_pain': 'stated', 'shortness_of_breath': 'confirmed', 'wheezing': 'confirmed'}"
+bronchial asthma,[],{}
+bronchial asthma,['shortness_of_breath'],{'shortness_of_breath': 'stated'}
+bronchial asthma,['wheezing'],{'wheezing': 'stated'}
+bronchial asthma,[],{}
+bronchial asthma,['wheezing'],{'wheezing': 'stated'}
+bronchial asthma,"['chest_pain', 'cough', 'wheezing']","{'chest_pain': 'stated', 'cough': 'confirmed', 'wheezing': 'confirmed'}"
+bronchial asthma,"['cough', 'wheezing']","{'cough': 'stated', 'wheezing': 'stated'}"
+bronchial asthma,['shortness_of_breath'],{'shortness_of_breath': 'stated'}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,"['fatigue', 'wheezing']","{'fatigue': 'stated', 'wheezing': 'stated'}"
+bronchial asthma,"['cough', 'runny_nose']","{'cough': 'stated', 'runny_nose': 'stated'}"
+bronchial asthma,['wheezing'],{'wheezing': 'stated'}
+bronchial asthma,[],{}
+bronchial asthma,['wheezing'],{'wheezing': 'stated'}
+bronchial asthma,"['cough', 'nasal_congestion']","{'cough': 'stated', 'nasal_congestion': 'stated'}"
+bronchial asthma,[],{}
+bronchial asthma,['shortness_of_breath'],{'shortness_of_breath': 'stated'}
+bronchial asthma,[],{}
+bronchial asthma,['wheezing'],{'wheezing': 'stated'}
+bronchial asthma,[],{}
+bronchial asthma,"['cough', 'wheezing']","{'cough': 'stated', 'wheezing': 'stated'}"
+bronchial asthma,[],{}
+bronchial asthma,"['chest_pain', 'shortness_of_breath', 'wheezing']","{'shortness_of_breath': 'stated', 'chest_pain': 'stated', 'wheezing': 'stated'}"
+bronchial asthma,"['chest_pain', 'cough', 'shortness_of_breath', 'wheezing']","{'cough': 'stated', 'chest_pain': 'stated', 'shortness_of_breath': 'confirmed', 'wheezing': 'confirmed'}"
+bronchial asthma,['shortness_of_breath'],{'shortness_of_breath': 'stated'}
+bronchial asthma,"['chest_pain', 'cough', 'shortness_of_breath', 'wheezing']","{'shortness_of_breath': 'stated', 'chest_pain': 'stated', 'cough': 'confirmed', 'wheezing': 'confirmed'}"
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,['cough'],{'cough': 'stated'}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+bronchial asthma,[],{}
+malaria,"['chills', 'fever', 'headache']","{'fever': 'stated', 'chills': 'stated', 'headache': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fever', 'sweating']","{'fever': 'stated', 'sweating': 'stated', 'chills': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'muscle_pain', 'nausea', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated', 'muscle_pain': 'stated', 'nausea': 'stated'}"
+malaria,"['chills', 'fever', 'sweating']","{'fever': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'muscle_pain', 'sweating']","{'fever': 'stated', 'muscle_pain': 'stated', 'fatigue': 'stated', 'chills': 'confirmed', 'sweating': 'confirmed'}"
+malaria,"['chills', 'fever', 'headache', 'nausea']","{'chills': 'stated', 'fever': 'stated', 'nausea': 'stated', 'headache': 'stated'}"
+malaria,"['fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated'}"
+malaria,"['chills', 'fever', 'headache', 'muscle_pain', 'nausea', 'sweating']","{'fever': 'stated', 'chills': 'stated', 'sweating': 'stated', 'muscle_pain': 'confirmed', 'nausea': 'confirmed', 'headache': 'confirmed'}"
+malaria,"['chills', 'fatigue', 'fever', 'headache', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated', 'headache': 'stated'}"
+malaria,"['chills', 'fever', 'nausea', 'sweating']","{'fever': 'stated', 'nausea': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fever', 'muscle_pain', 'sweating']","{'fever': 'stated', 'muscle_pain': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['fatigue', 'fever', 'headache', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'sweating': 'stated', 'headache': 'stated'}"
+malaria,"['dizziness', 'fever', 'sweating']","{'fever': 'stated', 'dizziness': 'stated', 'sweating': 'stated'}"
+malaria,"['fever', 'muscle_pain', 'sweating']","{'fever': 'stated', 'muscle_pain': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fever', 'headache', 'nausea']","{'fever': 'stated', 'chills': 'stated', 'nausea': 'stated', 'headache': 'stated'}"
+malaria,"['fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fever', 'sweating']","{'fever': 'stated', 'sweating': 'stated', 'chills': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'headache']","{'fever': 'stated', 'headache': 'stated', 'chills': 'stated', 'fatigue': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'nausea', 'sweating']","{'fever': 'stated', 'nausea': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'sweating': 'stated', 'chills': 'stated', 'fatigue': 'stated'}"
+malaria,"['chills', 'fever', 'headache', 'nausea', 'sweating']","{'fever': 'stated', 'chills': 'stated', 'sweating': 'stated', 'nausea': 'stated', 'headache': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'muscle_pain', 'sweating']","{'fever': 'stated', 'muscle_pain': 'stated', 'chills': 'stated', 'fatigue': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fever', 'nausea', 'sweating']","{'fever': 'stated', 'nausea': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fever', 'sweating']","{'fever': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'headache', 'sweating']","{'fever': 'stated', 'headache': 'stated', 'chills': 'stated', 'sweating': 'stated', 'fatigue': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'muscle_pain', 'sweating']","{'fever': 'stated', 'muscle_pain': 'stated', 'chills': 'stated', 'fatigue': 'stated', 'sweating': 'stated'}"
+malaria,"['fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'headache', 'sweating']","{'fever': 'stated', 'headache': 'stated', 'chills': 'stated', 'sweating': 'stated', 'fatigue': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'nausea', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'nausea': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+malaria,"['chills', 'fatigue', 'fever', 'sweating']","{'fever': 'stated', 'fatigue': 'stated', 'chills': 'stated', 'sweating': 'stated'}"
+impetigo,"['blisters', 'itching', 'skin_redness']","{'skin_redness': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'skin_redness']","{'skin_redness': 'stated', 'blisters': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'skin_redness', 'swelling']","{'skin_redness': 'stated', 'blisters': 'stated', 'swelling': 'stated'}"
+impetigo,"['blisters', 'itching', 'pimples']","{'blisters': 'stated', 'pimples': 'stated', 'itching': 'stated'}"
+impetigo,['blisters'],{'blisters': 'stated'}
+impetigo,"['blisters', 'skin_redness']","{'skin_redness': 'stated', 'blisters': 'stated'}"
+impetigo,"['blisters', 'itching', 'rash']","{'rash': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'skin_patches']","{'skin_patches': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'pimples']","{'blisters': 'stated', 'pimples': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'skin_redness', 'swelling']","{'skin_redness': 'stated', 'blisters': 'stated', 'swelling': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'skin_patches']","{'skin_patches': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'skin_redness']","{'blisters': 'stated', 'skin_redness': 'confirmed'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,['blisters'],{'blisters': 'stated'}
+impetigo,"['blisters', 'skin_redness']","{'skin_redness': 'stated', 'blisters': 'stated'}"
+impetigo,['blisters'],{'blisters': 'stated'}
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'skin_redness']","{'skin_redness': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'rash']","{'rash': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'skin_redness']","{'itching': 'stated', 'blisters': 'stated', 'skin_redness': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'skin_patches']","{'skin_patches': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'rash']","{'rash': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'skin_redness']","{'skin_redness': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'skin_patches']","{'skin_patches': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'rash']","{'rash': 'stated', 'blisters': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching', 'pimples']","{'blisters': 'stated', 'pimples': 'stated', 'itching': 'stated'}"
+impetigo,"['blisters', 'itching']","{'blisters': 'stated', 'itching': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_pain_heaviness', 'leg_veins', 'swelling']","{'leg_pain_heaviness': 'stated', 'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,['leg_veins'],{'leg_veins': 'stated'}
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['fatigue', 'leg_pain_heaviness', 'leg_veins', 'swelling']","{'fatigue': 'stated', 'leg_veins': 'stated', 'leg_pain_heaviness': 'stated', 'swelling': 'stated'}"
+varicose veins,['leg_veins'],{'leg_veins': 'stated'}
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['fatigue', 'leg_pain_heaviness', 'leg_veins', 'swelling']","{'fatigue': 'stated', 'leg_veins': 'stated', 'swelling': 'stated', 'leg_pain_heaviness': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_pain_heaviness', 'leg_veins']","{'leg_pain_heaviness': 'stated', 'leg_veins': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_pain_heaviness', 'leg_veins', 'swelling']","{'leg_pain_heaviness': 'stated', 'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,['leg_veins'],{'leg_veins': 'stated'}
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_pain_heaviness', 'leg_veins', 'swelling']","{'leg_pain_heaviness': 'stated', 'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_pain_heaviness', 'leg_veins', 'swelling']","{'leg_pain_heaviness': 'stated', 'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,['leg_veins'],{'leg_veins': 'stated'}
+varicose veins,"['leg_pain_heaviness', 'leg_veins', 'swelling']","{'leg_pain_heaviness': 'stated', 'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,['leg_veins'],{'leg_veins': 'stated'}
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+varicose veins,"['leg_veins', 'swelling']","{'leg_veins': 'stated', 'swelling': 'stated'}"
+diabetes,"['excessive_thirst', 'frequent_urination']","{'excessive_thirst': 'stated', 'frequent_urination': 'stated'}"
+diabetes,['fatigue'],{'fatigue': 'stated'}
+diabetes,"['excessive_thirst', 'frequent_urination', 'weight_loss']","{'weight_loss': 'stated', 'frequent_urination': 'confirmed', 'excessive_thirst': 'confirmed'}"
+diabetes,['blurred_vision'],{'blurred_vision': 'stated'}
+diabetes,['fatigue'],{'fatigue': 'stated'}
+diabetes,"['excessive_thirst', 'fatigue']","{'excessive_thirst': 'stated', 'fatigue': 'stated'}"
+diabetes,"['blurred_vision', 'excessive_thirst']","{'blurred_vision': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,['fatigue'],{'fatigue': 'stated'}
+diabetes,['dizziness'],{'dizziness': 'stated'}
+diabetes,"['excessive_thirst', 'frequent_urination']","{'frequent_urination': 'stated', 'excessive_thirst': 'confirmed'}"
+diabetes,"['excessive_thirst', 'frequent_urination', 'itching']","{'itching': 'stated', 'frequent_urination': 'confirmed', 'excessive_thirst': 'confirmed'}"
+diabetes,['fatigue'],{'fatigue': 'stated'}
+diabetes,"['excessive_thirst', 'fatigue', 'frequent_urination']","{'excessive_thirst': 'stated', 'frequent_urination': 'confirmed', 'fatigue': 'stated'}"
+diabetes,"['blurred_vision', 'fatigue', 'frequent_urination']","{'blurred_vision': 'stated', 'fatigue': 'stated', 'frequent_urination': 'confirmed'}"
+diabetes,"['excessive_thirst', 'fatigue', 'frequent_urination']","{'fatigue': 'stated', 'frequent_urination': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['excessive_thirst', 'frequent_urination']","{'frequent_urination': 'stated', 'excessive_thirst': 'confirmed'}"
+diabetes,"['blurred_vision', 'excessive_thirst']","{'excessive_thirst': 'stated', 'blurred_vision': 'stated'}"
+diabetes,"['excessive_thirst', 'fatigue']","{'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['blurred_vision', 'dizziness', 'fatigue']","{'dizziness': 'stated', 'fatigue': 'stated', 'blurred_vision': 'stated'}"
+diabetes,"['excessive_thirst', 'fatigue', 'frequent_urination']","{'frequent_urination': 'stated', 'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['excessive_thirst', 'frequent_urination', 'itching']","{'itching': 'stated', 'frequent_urination': 'confirmed', 'excessive_thirst': 'confirmed'}"
+diabetes,"['excessive_thirst', 'fatigue', 'headache']","{'headache': 'stated', 'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['excessive_thirst', 'fatigue']","{'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['blurred_vision', 'numbness_tingling']","{'numbness_tingling': 'stated', 'blurred_vision': 'stated'}"
+diabetes,['excessive_thirst'],{'excessive_thirst': 'stated'}
+diabetes,"['excessive_thirst', 'fatigue']","{'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['fatigue', 'frequent_urination']","{'fatigue': 'stated', 'frequent_urination': 'stated'}"
+diabetes,"['blurred_vision', 'excessive_thirst', 'fatigue', 'skin_patches']","{'skin_patches': 'stated', 'fatigue': 'stated', 'excessive_thirst': 'stated', 'blurred_vision': 'stated'}"
+diabetes,['fatigue'],{'fatigue': 'stated'}
+diabetes,"['excessive_thirst', 'fatigue']","{'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['excessive_thirst', 'fatigue']","{'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['dizziness', 'nausea']","{'nausea': 'stated', 'dizziness': 'stated'}"
+diabetes,"['excessive_thirst', 'fatigue']","{'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['blurred_vision', 'excessive_thirst', 'fatigue', 'frequent_urination']","{'fatigue': 'stated', 'frequent_urination': 'confirmed', 'excessive_thirst': 'confirmed', 'blurred_vision': 'confirmed'}"
+diabetes,"['excessive_thirst', 'fatigue']","{'excessive_thirst': 'stated', 'fatigue': 'stated'}"
+diabetes,['blurred_vision'],{'blurred_vision': 'stated'}
+diabetes,"['excessive_thirst', 'fatigue', 'frequent_urination']","{'fatigue': 'stated', 'frequent_urination': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['excessive_thirst', 'fatigue']","{'fatigue': 'stated', 'excessive_thirst': 'stated'}"
+diabetes,"['dizziness', 'fatigue']","{'dizziness': 'stated', 'fatigue': 'stated'}"
+diabetes,"['excessive_thirst', 'frequent_urination']","{'frequent_urination': 'stated', 'excessive_thirst': 'stated'}"
+drug reaction,"['rash', 'skin_redness']","{'rash': 'stated', 'skin_redness': 'stated'}"
+drug reaction,['dizziness'],{'dizziness': 'stated'}
+drug reaction,['itching'],{'itching': 'stated'}
+drug reaction,['nausea'],{'nausea': 'stated'}
+drug reaction,['excessive_thirst'],{'excessive_thirst': 'stated'}
+drug reaction,['swelling'],{'swelling': 'stated'}
+drug reaction,['fatigue'],{'fatigue': 'stated'}
+drug reaction,['headache'],{'headache': 'stated'}
+drug reaction,['nausea'],{'nausea': 'stated'}
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,"['nausea', 'vomiting']","{'nausea': 'stated', 'vomiting': 'stated'}"
+drug reaction,['blurred_vision'],{'blurred_vision': 'stated'}
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,['swelling'],{'swelling': 'stated'}
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,['headache'],{'headache': 'stated'}
+drug reaction,"['itching', 'skin_redness']","{'itching': 'stated', 'skin_redness': 'stated'}"
+drug reaction,['shortness_of_breath'],{'shortness_of_breath': 'stated'}
+drug reaction,['dizziness'],{'dizziness': 'stated'}
+drug reaction,['frequent_urination'],{'frequent_urination': 'stated'}
+drug reaction,"['abdominal_pain', 'nausea']","{'nausea': 'stated', 'abdominal_pain': 'stated'}"
+drug reaction,['fatigue'],{'fatigue': 'stated'}
+drug reaction,['joint_pain'],{'joint_pain': 'stated'}
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,['rash'],{'rash': 'stated'}
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,['rash'],{'rash': 'stated'}
+drug reaction,[],{}
+drug reaction,"['excessive_thirst', 'frequent_urination']","{'excessive_thirst': 'stated', 'frequent_urination': 'stated'}"
+drug reaction,[],{}
+drug reaction,[],{}
+drug reaction,['blurred_vision'],{'blurred_vision': 'stated'}
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches']","{'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'itching': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'itching': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'itching': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['bleeding', 'itching', 'skin_patches']","{'skin_patches': 'stated', 'itching': 'stated', 'bleeding': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches']","{'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['bleeding', 'itching', 'skin_patches']","{'skin_patches': 'stated', 'itching': 'stated', 'bleeding': 'stated'}"
+psoriasis,"['itching', 'skin_patches']","{'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'skin_patches']","{'skin_patches': 'stated', 'itching': 'stated'}"
+psoriasis,"['itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated'}"
+psoriasis,"['bleeding', 'itching', 'rash', 'skin_patches', 'skin_redness']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated', 'bleeding': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fever']","{'cough': 'stated', 'chest_pain': 'stated', 'fever': 'stated'}"
+pneumonia,"['cough', 'fatigue', 'mucus', 'shortness_of_breath']","{'fatigue': 'stated', 'mucus': 'stated', 'cough': 'stated', 'shortness_of_breath': 'confirmed'}"
+pneumonia,"['chest_pain', 'chills', 'cough', 'fever']","{'fever': 'stated', 'cough': 'stated', 'chills': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['cough', 'fatigue', 'mucus', 'shortness_of_breath']","{'cough': 'stated', 'mucus': 'stated', 'fatigue': 'stated', 'shortness_of_breath': 'stated'}"
+pneumonia,"['cough', 'fatigue', 'fever', 'shortness_of_breath']","{'shortness_of_breath': 'stated', 'cough': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fever', 'shortness_of_breath']","{'fever': 'stated', 'cough': 'stated', 'shortness_of_breath': 'confirmed', 'chest_pain': 'confirmed'}"
+pneumonia,"['cough', 'fatigue', 'mucus']","{'cough': 'stated', 'mucus': 'stated', 'fatigue': 'stated'}"
+pneumonia,"['cough', 'fatigue', 'fever', 'shortness_of_breath']","{'fatigue': 'stated', 'cough': 'stated', 'fever': 'stated', 'shortness_of_breath': 'stated'}"
+pneumonia,"['cough', 'nasal_congestion', 'shortness_of_breath']","{'cough': 'stated', 'shortness_of_breath': 'confirmed', 'nasal_congestion': 'confirmed'}"
+pneumonia,"['chest_pain', 'cough', 'fever']","{'fever': 'stated', 'cough': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fever']","{'cough': 'stated', 'fever': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['cough', 'fatigue', 'fever']","{'cough': 'stated', 'fatigue': 'stated', 'fever': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fever', 'mucus']","{'fever': 'stated', 'cough': 'stated', 'mucus': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['cough', 'fatigue', 'fever']","{'cough': 'stated', 'fatigue': 'stated', 'fever': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fatigue', 'mucus', 'shortness_of_breath']","{'cough': 'stated', 'mucus': 'stated', 'fatigue': 'stated', 'shortness_of_breath': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chills', 'cough', 'fever', 'shortness_of_breath']","{'shortness_of_breath': 'stated', 'cough': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'nausea', 'shortness_of_breath']","{'cough': 'stated', 'nausea': 'stated', 'shortness_of_breath': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'shortness_of_breath']","{'cough': 'stated', 'shortness_of_breath': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fatigue', 'shortness_of_breath']","{'cough': 'stated', 'fatigue': 'stated', 'shortness_of_breath': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['cough', 'fever', 'shortness_of_breath']","{'cough': 'stated', 'fever': 'stated', 'shortness_of_breath': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'mucus', 'shortness_of_breath']","{'cough': 'stated', 'mucus': 'stated', 'shortness_of_breath': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['fatigue', 'fever', 'shortness_of_breath']","{'fever': 'stated', 'fatigue': 'stated', 'shortness_of_breath': 'stated'}"
+pneumonia,"['chest_pain', 'cough']","{'cough': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chills', 'cough', 'fever', 'shortness_of_breath']","{'shortness_of_breath': 'stated', 'cough': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'shortness_of_breath']","{'cough': 'stated', 'chest_pain': 'stated', 'shortness_of_breath': 'stated'}"
+pneumonia,"['cough', 'fever', 'shortness_of_breath']","{'cough': 'stated', 'fever': 'stated', 'shortness_of_breath': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fatigue', 'shortness_of_breath']","{'fatigue': 'stated', 'cough': 'stated', 'shortness_of_breath': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'mucus', 'shortness_of_breath']","{'cough': 'stated', 'mucus': 'stated', 'shortness_of_breath': 'confirmed', 'chest_pain': 'confirmed'}"
+pneumonia,"['chest_pain', 'fever']","{'fever': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chills', 'cough', 'dizziness', 'fever', 'shortness_of_breath']","{'shortness_of_breath': 'stated', 'cough': 'stated', 'dizziness': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fatigue', 'shortness_of_breath']","{'fatigue': 'stated', 'cough': 'stated', 'chest_pain': 'stated', 'shortness_of_breath': 'confirmed'}"
+pneumonia,"['cough', 'fatigue', 'fever', 'shortness_of_breath']","{'fever': 'stated', 'cough': 'stated', 'shortness_of_breath': 'stated', 'fatigue': 'stated'}"
+pneumonia,"['chest_pain', 'chills', 'cough', 'fever']","{'cough': 'stated', 'chest_pain': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+pneumonia,"['cough', 'fever', 'shortness_of_breath']","{'shortness_of_breath': 'stated', 'cough': 'stated', 'fever': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fever']","{'fever': 'stated', 'cough': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fever', 'shortness_of_breath']","{'fever': 'stated', 'cough': 'stated', 'shortness_of_breath': 'stated', 'chest_pain': 'stated'}"
+pneumonia,"['chest_pain', 'shortness_of_breath']","{'chest_pain': 'stated', 'shortness_of_breath': 'confirmed'}"
+pneumonia,"['chills', 'cough', 'fever']","{'cough': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+pneumonia,"['cough', 'fever', 'mucus']","{'cough': 'stated', 'mucus': 'stated', 'fever': 'stated'}"
+pneumonia,"['chest_pain', 'cough', 'fatigue', 'shortness_of_breath']","{'fatigue': 'stated', 'cough': 'stated', 'shortness_of_breath': 'stated', 'chest_pain': 'stated'}"
+jaundice,"['dark_urine', 'fatigue', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'fatigue': 'stated', 'dark_urine': 'stated'}"
+jaundice,"['fatigue', 'itching', 'pale_stool', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'itching': 'stated', 'pale_stool': 'stated'}"
+jaundice,"['dark_urine', 'nausea', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'nausea': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['fatigue', 'fever', 'loss_of_appetite', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'fever': 'stated', 'loss_of_appetite': 'stated'}"
+jaundice,"['dark_urine', 'nausea', 'pale_stool', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'nausea': 'stated', 'dark_urine': 'stated', 'pale_stool': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['dark_urine', 'fatigue', 'itching', 'yellow_skin_eyes']","{'dark_urine': 'stated', 'yellow_skin_eyes': 'stated', 'fatigue': 'stated', 'itching': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['dark_urine', 'fatigue', 'nausea', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'nausea': 'stated'}"
+jaundice,"['fatigue', 'itching', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'fatigue': 'stated', 'itching': 'stated'}"
+jaundice,"['fever', 'nausea', 'pale_stool', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'nausea': 'stated', 'fever': 'stated', 'pale_stool': 'stated'}"
+jaundice,"['dark_urine', 'fatigue', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'fatigue': 'stated', 'dark_urine': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['dark_urine', 'pale_stool', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'dark_urine': 'confirmed', 'pale_stool': 'confirmed'}"
+jaundice,"['fatigue', 'itching', 'nausea', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'itching': 'stated', 'nausea': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['dark_urine', 'fatigue', 'loss_of_appetite', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'loss_of_appetite': 'stated', 'dark_urine': 'stated', 'fatigue': 'stated'}"
+jaundice,"['abdominal_pain', 'itching', 'pale_stool', 'yellow_skin_eyes']","{'itching': 'stated', 'yellow_skin_eyes': 'stated', 'pale_stool': 'stated', 'abdominal_pain': 'confirmed'}"
+jaundice,"['fatigue', 'loss_of_appetite', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'loss_of_appetite': 'stated'}"
+jaundice,"['dark_urine', 'loss_of_appetite', 'yellow_skin_eyes']","{'dark_urine': 'stated', 'loss_of_appetite': 'stated', 'yellow_skin_eyes': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['dark_urine', 'nausea', 'pale_stool', 'yellow_skin_eyes']","{'nausea': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'pale_stool': 'stated'}"
+jaundice,"['dark_urine', 'itching', 'pale_stool', 'yellow_skin_eyes']","{'itching': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'pale_stool': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['dark_urine', 'fatigue', 'nausea', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'nausea': 'stated'}"
+jaundice,"['dark_urine', 'fatigue', 'fever', 'loss_of_appetite', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'fatigue': 'stated', 'loss_of_appetite': 'stated', 'fever': 'stated', 'dark_urine': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['dark_urine', 'itching', 'pale_stool', 'yellow_skin_eyes']","{'itching': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'pale_stool': 'stated'}"
+jaundice,"['bloating', 'fatigue', 'fever', 'loss_of_appetite', 'nausea', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'nausea': 'stated', 'loss_of_appetite': 'stated', 'fever': 'stated', 'bloating': 'stated'}"
+jaundice,"['dark_urine', 'fatigue', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated'}"
+jaundice,"['dark_urine', 'nausea', 'pale_stool', 'yellow_skin_eyes']","{'nausea': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'pale_stool': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['bloating', 'dark_urine', 'itching', 'yellow_skin_eyes']","{'dark_urine': 'stated', 'yellow_skin_eyes': 'stated', 'itching': 'stated', 'bloating': 'stated'}"
+jaundice,"['dark_urine', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'dark_urine': 'stated'}"
+jaundice,"['dark_urine', 'fatigue', 'nausea', 'pale_stool', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'pale_stool': 'stated', 'nausea': 'stated'}"
+jaundice,"['bloating', 'dark_urine', 'pale_stool', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'bloating': 'stated', 'dark_urine': 'stated', 'pale_stool': 'stated'}"
+jaundice,['yellow_skin_eyes'],{'yellow_skin_eyes': 'stated'}
+jaundice,"['dark_urine', 'fatigue', 'fever', 'yellow_skin_eyes']","{'fatigue': 'stated', 'yellow_skin_eyes': 'stated', 'dark_urine': 'stated', 'fever': 'stated'}"
+jaundice,"['dark_urine', 'fatigue', 'pale_stool', 'yellow_skin_eyes']","{'yellow_skin_eyes': 'stated', 'fatigue': 'stated', 'dark_urine': 'stated', 'pale_stool': 'stated'}"
+migraine,"['headache', 'light_sensitivity', 'nausea']","{'headache': 'stated', 'light_sensitivity': 'stated', 'nausea': 'stated'}"
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,"['dizziness', 'headache']","{'dizziness': 'stated', 'headache': 'stated'}"
+migraine,"['blurred_vision', 'headache']","{'headache': 'stated', 'blurred_vision': 'stated'}"
+migraine,"['headache', 'nausea']","{'headache': 'stated', 'nausea': 'stated'}"
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,"['dizziness', 'headache']","{'dizziness': 'stated', 'headache': 'stated'}"
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,"['headache', 'nausea']","{'nausea': 'stated', 'headache': 'stated'}"
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,['headache'],{'headache': 'stated'}
+migraine,"['fatigue', 'headache']","{'fatigue': 'stated', 'headache': 'stated'}"
+migraine,['headache'],{'headache': 'stated'}
+migraine,"['headache', 'neck_pain', 'stiffness']","{'neck_pain': 'stated', 'headache': 'stated', 'stiffness': 'stated'}"
+migraine,['headache'],{'headache': 'stated'}
+urinary tract infection,['painful_urination'],{'painful_urination': 'confirmed'}
+urinary tract infection,"['cloudy_urine', 'frequent_urination']","{'frequent_urination': 'stated', 'cloudy_urine': 'stated'}"
+urinary tract infection,"['abdominal_pain', 'painful_urination']","{'abdominal_pain': 'stated', 'painful_urination': 'confirmed'}"
+urinary tract infection,"['frequent_urination', 'painful_urination']","{'frequent_urination': 'stated', 'painful_urination': 'stated'}"
+urinary tract infection,[],{}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,['painful_urination'],{'painful_urination': 'stated'}
+urinary tract infection,"['cloudy_urine', 'painful_urination']","{'painful_urination': 'stated', 'cloudy_urine': 'stated'}"
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,"['fatigue', 'painful_urination']","{'fatigue': 'stated', 'painful_urination': 'stated'}"
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,['cloudy_urine'],{'cloudy_urine': 'stated'}
+urinary tract infection,['fatigue'],{'fatigue': 'stated'}
+urinary tract infection,[],{}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,['cloudy_urine'],{'cloudy_urine': 'stated'}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,[],{}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,['bloating'],{'bloating': 'stated'}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,[],{}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,[],{}
+urinary tract infection,[],{}
+urinary tract infection,[],{}
+urinary tract infection,"['cloudy_urine', 'fatigue', 'painful_urination']","{'fatigue': 'stated', 'painful_urination': 'stated', 'cloudy_urine': 'stated'}"
+urinary tract infection,"['frequent_urination', 'painful_urination']","{'frequent_urination': 'stated', 'painful_urination': 'confirmed'}"
+urinary tract infection,[],{}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,['painful_urination'],{'painful_urination': 'stated'}
+urinary tract infection,"['cloudy_urine', 'frequent_urination']","{'frequent_urination': 'stated', 'cloudy_urine': 'stated'}"
+urinary tract infection,['fatigue'],{'fatigue': 'stated'}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,[],{}
+urinary tract infection,[],{}
+urinary tract infection,['frequent_urination'],{'frequent_urination': 'stated'}
+urinary tract infection,[],{}
+urinary tract infection,['bloating'],{'bloating': 'stated'}
+arthritis,"['joint_pain', 'swelling']","{'joint_pain': 'stated', 'swelling': 'stated'}"
+arthritis,"['stiffness', 'swelling']","{'stiffness': 'stated', 'swelling': 'stated'}"
+arthritis,"['stiffness', 'swelling']","{'stiffness': 'stated', 'swelling': 'stated'}"
+arthritis,"['joint_pain', 'stiffness', 'swelling']","{'joint_pain': 'stated', 'stiffness': 'stated', 'swelling': 'stated'}"
+arthritis,['back_pain'],{'back_pain': 'stated'}
+arthritis,['stiffness'],{'stiffness': 'stated'}
+arthritis,"['joint_pain', 'stiffness', 'swelling']","{'joint_pain': 'stated', 'stiffness': 'stated', 'swelling': 'stated'}"
+arthritis,"['joint_pain', 'swelling']","{'joint_pain': 'stated', 'swelling': 'stated'}"
+arthritis,"['neck_pain', 'stiffness']","{'neck_pain': 'stated', 'stiffness': 'stated'}"
+arthritis,['swelling'],{'swelling': 'stated'}
+arthritis,"['joint_pain', 'stiffness', 'swelling']","{'stiffness': 'stated', 'joint_pain': 'stated', 'swelling': 'stated'}"
+arthritis,"['joint_pain', 'stiffness']","{'stiffness': 'stated', 'joint_pain': 'stated'}"
+arthritis,[],{}
+arthritis,"['joint_pain', 'stiffness', 'swelling']","{'stiffness': 'stated', 'joint_pain': 'stated', 'swelling': 'stated'}"
+arthritis,['swelling'],{'swelling': 'stated'}
+arthritis,['swelling'],{'swelling': 'stated'}
+arthritis,['stiffness'],{'stiffness': 'stated'}
+arthritis,['stiffness'],{'stiffness': 'stated'}
+arthritis,"['joint_pain', 'skin_redness', 'swelling']","{'joint_pain': 'stated', 'swelling': 'stated', 'skin_redness': 'stated'}"
+arthritis,"['joint_pain', 'stiffness', 'swelling']","{'stiffness': 'stated', 'joint_pain': 'stated', 'swelling': 'stated'}"
+arthritis,['joint_pain'],{'joint_pain': 'stated'}
+arthritis,['swelling'],{'swelling': 'stated'}
+arthritis,"['stiffness', 'swelling']","{'stiffness': 'stated', 'swelling': 'stated'}"
+arthritis,[],{}
+arthritis,['stiffness'],{'stiffness': 'stated'}
+arthritis,"['stiffness', 'weight_loss']","{'stiffness': 'stated', 'weight_loss': 'stated'}"
+arthritis,"['joint_pain', 'swelling']","{'joint_pain': 'stated', 'swelling': 'stated'}"
+arthritis,"['joint_pain', 'skin_redness', 'stiffness']","{'stiffness': 'stated', 'joint_pain': 'stated', 'skin_redness': 'stated'}"
+arthritis,['swelling'],{'swelling': 'stated'}
+arthritis,"['joint_pain', 'stiffness']","{'stiffness': 'stated', 'joint_pain': 'stated'}"
+arthritis,[],{}
+arthritis,['stiffness'],{'stiffness': 'stated'}
+arthritis,[],{}
+arthritis,"['joint_pain', 'swelling']","{'joint_pain': 'stated', 'swelling': 'stated'}"
+arthritis,"['joint_pain', 'stiffness', 'swelling']","{'stiffness': 'stated', 'joint_pain': 'stated', 'swelling': 'stated'}"
+arthritis,['stiffness'],{'stiffness': 'stated'}
+arthritis,"['stiffness', 'weight_loss']","{'stiffness': 'stated', 'weight_loss': 'stated'}"
+arthritis,[],{}
+arthritis,['joint_pain'],{'joint_pain': 'stated'}
+arthritis,['swelling'],{'swelling': 'stated'}
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,['bloating'],{'bloating': 'stated'}
+peptic ulcer disease,"['heartburn', 'nausea', 'vomiting']","{'nausea': 'stated', 'vomiting': 'stated', 'heartburn': 'stated'}"
+peptic ulcer disease,"['abdominal_pain', 'fatigue']","{'abdominal_pain': 'stated', 'fatigue': 'stated'}"
+peptic ulcer disease,"['abdominal_pain', 'dizziness', 'fatigue']","{'abdominal_pain': 'stated', 'fatigue': 'confirmed', 'dizziness': 'confirmed'}"
+peptic ulcer disease,"['abdominal_pain', 'headache']","{'abdominal_pain': 'stated', 'headache': 'stated'}"
+peptic ulcer disease,['nausea'],{'nausea': 'stated'}
+peptic ulcer disease,"['abdominal_pain', 'heartburn']","{'abdominal_pain': 'stated', 'heartburn': 'stated'}"
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,['bloating'],{'bloating': 'stated'}
+peptic ulcer disease,['heartburn'],{'heartburn': 'stated'}
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,['fatigue'],{'fatigue': 'stated'}
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,[],{}
+peptic ulcer disease,"['bloating', 'nausea']","{'nausea': 'stated', 'bloating': 'stated'}"
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,"['abdominal_pain', 'heartburn']","{'heartburn': 'stated', 'abdominal_pain': 'stated'}"
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,"['abdominal_pain', 'bloating', 'cough', 'heartburn']","{'bloating': 'stated', 'abdominal_pain': 'stated', 'cough': 'stated', 'heartburn': 'stated'}"
+peptic ulcer disease,"['dizziness', 'fatigue']","{'fatigue': 'stated', 'dizziness': 'stated'}"
+peptic ulcer disease,[],{}
+peptic ulcer disease,['heartburn'],{'heartburn': 'confirmed'}
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,"['abdominal_pain', 'fatigue', 'loss_of_appetite']","{'fatigue': 'stated', 'abdominal_pain': 'stated', 'loss_of_appetite': 'stated'}"
+peptic ulcer disease,"['abdominal_pain', 'bloating', 'nausea']","{'nausea': 'stated', 'abdominal_pain': 'stated', 'bloating': 'stated'}"
+peptic ulcer disease,"['abdominal_pain', 'nausea']","{'nausea': 'stated', 'abdominal_pain': 'stated'}"
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,['bloating'],{'bloating': 'stated'}
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,"['abdominal_pain', 'dizziness']","{'dizziness': 'stated', 'abdominal_pain': 'stated'}"
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,"['bloating', 'nausea']","{'nausea': 'stated', 'bloating': 'stated'}"
+peptic ulcer disease,"['nausea', 'weight_loss']","{'nausea': 'stated', 'weight_loss': 'confirmed'}"
+peptic ulcer disease,['abdominal_pain'],{'abdominal_pain': 'stated'}
+peptic ulcer disease,[],{}
+peptic ulcer disease,"['abdominal_pain', 'fatigue', 'nausea']","{'fatigue': 'stated', 'abdominal_pain': 'stated', 'nausea': 'stated'}"
+cervical spondylosis,"['neck_pain', 'numbness_tingling', 'stiffness']","{'neck_pain': 'stated', 'stiffness': 'stated', 'numbness_tingling': 'stated'}"
+cervical spondylosis,"['neck_pain', 'stiffness']","{'neck_pain': 'stated', 'stiffness': 'stated'}"
+cervical spondylosis,"['constipation', 'neck_pain']","{'constipation': 'stated', 'neck_pain': 'stated'}"
+cervical spondylosis,"['headache', 'neck_pain']","{'neck_pain': 'stated', 'headache': 'stated'}"
+cervical spondylosis,[],{}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,"['fatigue', 'neck_pain']","{'neck_pain': 'stated', 'fatigue': 'stated'}"
+cervical spondylosis,['numbness_tingling'],{'numbness_tingling': 'stated'}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,"['neck_pain', 'stiffness']","{'neck_pain': 'stated', 'stiffness': 'stated'}"
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,[],{}
+cervical spondylosis,"['neck_pain', 'stiffness']","{'neck_pain': 'stated', 'stiffness': 'stated'}"
+cervical spondylosis,[],{}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,[],{}
+cervical spondylosis,['neck_pain'],{'neck_pain': 'stated'}
+chicken pox,"['fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'skin_redness': 'stated', 'itching': 'stated', 'fever': 'stated'}"
+chicken pox,"['blisters', 'chills', 'fever', 'itching']","{'itching': 'stated', 'blisters': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching']","{'itching': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'stated', 'fever': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'rash', 'skin_redness']","{'itching': 'stated', 'rash': 'stated', 'skin_redness': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['fatigue', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'headache', 'itching']","{'itching': 'stated', 'blisters': 'stated', 'fever': 'confirmed', 'fatigue': 'confirmed', 'headache': 'confirmed'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'confirmed', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'confirmed', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fever', 'itching', 'rash']","{'rash': 'stated', 'blisters': 'stated', 'itching': 'stated', 'fever': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'pimples', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'pimples': 'stated', 'blisters': 'confirmed', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'confirmed', 'fever': 'stated'}"
+chicken pox,"['fatigue', 'fever', 'itching', 'skin_redness']","{'itching': 'stated', 'skin_redness': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'blisters': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'fever': 'stated'}"
+chicken pox,"['blisters', 'chills', 'fever', 'pimples', 'rash', 'skin_redness']","{'rash': 'stated', 'skin_redness': 'stated', 'pimples': 'stated', 'blisters': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'blisters': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever']","{'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'confirmed', 'fever': 'stated'}"
+chicken pox,"['fatigue', 'fever', 'itching', 'rash']","{'rash': 'stated', 'itching': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['fatigue', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching']","{'blisters': 'stated', 'itching': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'rash', 'skin_redness']","{'rash': 'stated', 'blisters': 'stated', 'skin_redness': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'rash']","{'rash': 'stated', 'blisters': 'stated', 'itching': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['fatigue', 'fever', 'rash', 'skin_redness']","{'rash': 'stated', 'skin_redness': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'pimples']","{'itching': 'stated', 'blisters': 'stated', 'pimples': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'rash', 'skin_redness']","{'rash': 'stated', 'blisters': 'stated', 'skin_redness': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'chills', 'fever', 'rash']","{'rash': 'stated', 'blisters': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+chicken pox,"['blisters', 'fever', 'itching']","{'itching': 'stated', 'blisters': 'stated', 'fever': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'skin_redness']","{'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching']","{'itching': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['fatigue', 'fever', 'itching', 'rash']","{'rash': 'stated', 'itching': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'chills', 'fever', 'itching']","{'itching': 'stated', 'blisters': 'stated', 'fever': 'stated', 'chills': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching']","{'itching': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever']","{'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'rash', 'skin_redness']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'skin_redness']","{'itching': 'stated', 'blisters': 'stated', 'skin_redness': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever']","{'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'rash']","{'rash': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+chicken pox,"['blisters', 'fatigue', 'fever', 'itching', 'rash']","{'rash': 'stated', 'itching': 'stated', 'blisters': 'stated', 'fever': 'stated', 'fatigue': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever', 'nausea']","{'fever': 'stated', 'nausea': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever', 'nausea']","{'fever': 'stated', 'nausea': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever', 'nausea']","{'fever': 'stated', 'fatigue': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'confirmed', 'nausea': 'confirmed'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever', 'nausea']","{'fever': 'stated', 'nausea': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever', 'nausea']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated', 'nausea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever', 'nausea']","{'fever': 'stated', 'nausea': 'stated', 'diarrhea': 'confirmed', 'abdominal_pain': 'confirmed'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever', 'nausea']","{'fever': 'stated', 'nausea': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever', 'nausea']","{'fever': 'stated', 'nausea': 'stated', 'diarrhea': 'stated', 'abdominal_pain': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fatigue', 'fever']","{'fever': 'stated', 'fatigue': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'stated'}"
+typhoid,"['abdominal_pain', 'diarrhea', 'fever', 'nausea']","{'fever': 'stated', 'abdominal_pain': 'stated', 'diarrhea': 'confirmed', 'nausea': 'confirmed'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'constipation', 'itching', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'stated', 'itching': 'stated', 'constipation': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'bleeding': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching']","{'itching': 'stated', 'anal_swelling_lump': 'stated', 'bleeding': 'confirmed'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'stated', 'bleeding': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching']","{'anal_swelling_lump': 'stated', 'itching': 'stated', 'bleeding': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'stated', 'bleeding': 'confirmed'}"
+dimorphic hemorrhoids,['anal_swelling_lump'],{'anal_swelling_lump': 'stated'}
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding']","{'anal_swelling_lump': 'stated', 'bleeding': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'stated', 'bleeding': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'stated', 'bleeding': 'confirmed'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching', 'swelling']","{'itching': 'stated', 'anal_swelling_lump': 'stated', 'bleeding': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,['swelling'],{'swelling': 'stated'}
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'stated', 'bleeding': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'itching': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'bleeding': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'confirmed'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'stated', 'itching': 'stated', 'bleeding': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'stated', 'bleeding': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching']","{'itching': 'stated', 'bleeding': 'stated', 'anal_swelling_lump': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'confirmed'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'itching', 'swelling']","{'anal_swelling_lump': 'stated', 'itching': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'stated', 'itching': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'stated', 'itching': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'confirmed'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'itching', 'swelling']","{'anal_swelling_lump': 'stated', 'itching': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'anal_swelling_lump': 'stated', 'swelling': 'stated', 'bleeding': 'confirmed'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding']","{'anal_swelling_lump': 'stated', 'bleeding': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'itching': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['bleeding', 'swelling']","{'bleeding': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'itching', 'swelling']","{'itching': 'stated', 'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'stated'}"
+dimorphic hemorrhoids,"['anal_swelling_lump', 'bleeding', 'swelling']","{'bleeding': 'stated', 'anal_swelling_lump': 'stated', 'swelling': 'stated'}"
+hypertension,[],{}
+hypertension,['dizziness'],{'dizziness': 'stated'}
+hypertension,['fatigue'],{'fatigue': 'stated'}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,['shortness_of_breath'],{'shortness_of_breath': 'stated'}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,['fatigue'],{'fatigue': 'stated'}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,['chest_pain'],{'chest_pain': 'stated'}
+hypertension,[],{}
+hypertension,['fatigue'],{'fatigue': 'stated'}
+hypertension,[],{}
+hypertension,['dizziness'],{'dizziness': 'stated'}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,['swelling'],{'swelling': 'stated'}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+hypertension,[],{}
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,['anal_swelling_lump'],{'anal_swelling_lump': 'stated'}
+gastroesophageal reflux disease,"['heartburn', 'nausea']","{'nausea': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['bloating', 'heartburn']","{'bloating': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['cough', 'heartburn', 'sore_throat']","{'cough': 'stated', 'sore_throat': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['bloating', 'heartburn']","{'bloating': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,['nausea'],{'nausea': 'stated'}
+gastroesophageal reflux disease,"['anal_swelling_lump', 'heartburn']","{'anal_swelling_lump': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['bloating', 'heartburn']","{'bloating': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['cough', 'heartburn', 'sore_throat']","{'cough': 'stated', 'sore_throat': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['bloating', 'heartburn']","{'heartburn': 'stated', 'bloating': 'stated'}"
+gastroesophageal reflux disease,"['chest_pain', 'heartburn']","{'chest_pain': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['cough', 'heartburn', 'sore_throat']","{'cough': 'stated', 'sore_throat': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['bloating', 'heartburn']","{'bloating': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['anal_swelling_lump', 'heartburn']","{'anal_swelling_lump': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'confirmed'}
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['bloating', 'heartburn']","{'bloating': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['cough', 'heartburn', 'sore_throat']","{'cough': 'stated', 'sore_throat': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,[],{}
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['bloating', 'heartburn']","{'bloating': 'stated', 'heartburn': 'confirmed'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['cough', 'heartburn']","{'cough': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['chest_pain', 'heartburn']","{'chest_pain': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['heartburn', 'sore_throat']","{'sore_throat': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['bloating', 'heartburn', 'nausea']","{'nausea': 'stated', 'heartburn': 'stated', 'bloating': 'stated'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['abdominal_pain', 'heartburn']","{'abdominal_pain': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,['heartburn'],{'heartburn': 'stated'}
+gastroesophageal reflux disease,"['bloating', 'heartburn']","{'bloating': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['anal_swelling_lump', 'heartburn']","{'anal_swelling_lump': 'stated', 'heartburn': 'stated'}"
+gastroesophageal reflux disease,"['chest_pain', 'heartburn']","{'chest_pain': 'stated', 'heartburn': 'stated'}"
+acne,"['pimples', 'skin_redness']","{'skin_redness': 'stated', 'pimples': 'stated'}"
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,"['pimples', 'rash']","{'rash': 'stated', 'pimples': 'stated'}"
+acne,['pimples'],{'pimples': 'stated'}
+acne,"['pimples', 'skin_patches']","{'skin_patches': 'stated', 'pimples': 'stated'}"
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,"['pimples', 'rash']","{'pimples': 'stated', 'rash': 'stated'}"
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,"['heartburn', 'pimples']","{'heartburn': 'stated', 'pimples': 'stated'}"
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,[],{}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+acne,['pimples'],{'pimples': 'stated'}
+fungal infection,"['itching', 'skin_redness', 'sweating']","{'itching': 'stated', 'skin_redness': 'stated', 'sweating': 'stated'}"
+fungal infection,['skin_patches'],{'skin_patches': 'stated'}
+fungal infection,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+fungal infection,"['itching', 'skin_redness', 'sweating']","{'skin_redness': 'stated', 'itching': 'stated', 'sweating': 'stated'}"
+fungal infection,[],{}
+fungal infection,"['itching', 'skin_redness', 'sweating']","{'itching': 'stated', 'skin_redness': 'stated', 'sweating': 'stated'}"
+fungal infection,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+fungal infection,['skin_patches'],{'skin_patches': 'stated'}
+fungal infection,"['itching', 'skin_patches']","{'skin_patches': 'stated', 'itching': 'stated'}"
+fungal infection,[],{}
+fungal infection,"['itching', 'skin_redness', 'sweating']","{'itching': 'stated', 'sweating': 'stated', 'skin_redness': 'stated'}"
+fungal infection,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+fungal infection,['itching'],{'itching': 'stated'}
+fungal infection,['rash'],{'rash': 'stated'}
+fungal infection,['itching'],{'itching': 'stated'}
+fungal infection,['skin_redness'],{'skin_redness': 'stated'}
+fungal infection,"['itching', 'skin_patches', 'sweating']","{'itching': 'stated', 'skin_patches': 'stated', 'sweating': 'confirmed'}"
+fungal infection,"['blisters', 'itching']","{'itching': 'stated', 'blisters': 'stated'}"
+fungal infection,"['itching', 'skin_patches', 'skin_redness', 'sweating']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated', 'sweating': 'confirmed'}"
+fungal infection,"['itching', 'skin_patches']","{'skin_patches': 'stated', 'itching': 'stated'}"
+fungal infection,"['itching', 'rash', 'skin_redness', 'sweating']","{'rash': 'stated', 'skin_redness': 'stated', 'itching': 'stated', 'sweating': 'stated'}"
+fungal infection,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'stated'}"
+fungal infection,"['itching', 'rash', 'skin_patches', 'skin_redness', 'sweating']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'skin_patches': 'stated', 'sweating': 'confirmed'}"
+fungal infection,[],{}
+fungal infection,"['itching', 'rash', 'skin_patches', 'skin_redness', 'sweating']","{'rash': 'stated', 'skin_patches': 'stated', 'skin_redness': 'stated', 'itching': 'stated', 'sweating': 'stated'}"
+fungal infection,"['itching', 'rash']","{'rash': 'stated', 'itching': 'stated'}"
+fungal infection,"['rash', 'skin_redness', 'sweating']","{'rash': 'stated', 'sweating': 'stated', 'skin_redness': 'stated'}"
+fungal infection,"['rash', 'sweating']","{'rash': 'stated', 'sweating': 'stated'}"
+fungal infection,[],{}
+fungal infection,['itching'],{'itching': 'stated'}
+fungal infection,"['itching', 'skin_patches', 'skin_redness']","{'skin_redness': 'stated', 'skin_patches': 'stated', 'itching': 'confirmed'}"
+fungal infection,"['itching', 'rash', 'skin_patches', 'skin_redness', 'sweating']","{'rash': 'stated', 'skin_patches': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'sweating': 'stated'}"
+fungal infection,"['itching', 'skin_patches']","{'itching': 'stated', 'skin_patches': 'stated'}"
+fungal infection,"['itching', 'skin_redness']","{'skin_redness': 'stated', 'itching': 'confirmed'}"
+fungal infection,['skin_redness'],{'skin_redness': 'stated'}
+fungal infection,['skin_redness'],{'skin_redness': 'stated'}
+fungal infection,"['itching', 'rash', 'skin_patches', 'skin_redness', 'sweating']","{'rash': 'stated', 'itching': 'stated', 'skin_redness': 'stated', 'skin_patches': 'stated', 'sweating': 'confirmed'}"
+fungal infection,['skin_patches'],{'skin_patches': 'stated'}
+fungal infection,['rash'],{'rash': 'stated'}
+fungal infection,"['blisters', 'itching', 'skin_redness', 'sweating']","{'itching': 'stated', 'skin_redness': 'stated', 'blisters': 'confirmed', 'sweating': 'confirmed'}"
+common cold,"['cough', 'runny_nose', 'sneezing']","{'sneezing': 'stated', 'runny_nose': 'stated', 'cough': 'stated'}"
+common cold,[],{}
+common cold,"['fever', 'runny_nose', 'sneezing']","{'fever': 'stated', 'sneezing': 'stated', 'runny_nose': 'stated'}"
+common cold,"['nasal_congestion', 'runny_nose']","{'nasal_congestion': 'confirmed', 'runny_nose': 'confirmed'}"
+common cold,"['cough', 'fatigue', 'headache', 'runny_nose', 'sore_throat']","{'fatigue': 'stated', 'headache': 'stated', 'cough': 'confirmed', 'sore_throat': 'confirmed', 'runny_nose': 'confirmed'}"
+common cold,"['cough', 'mucus']","{'cough': 'stated', 'mucus': 'stated'}"
+common cold,"['sneezing', 'watery_eyes']","{'watery_eyes': 'stated', 'sneezing': 'stated'}"
+common cold,['cough'],{'cough': 'stated'}
+common cold,"['nasal_congestion', 'runny_nose']","{'nasal_congestion': 'confirmed', 'runny_nose': 'confirmed'}"
+common cold,"['runny_nose', 'sneezing', 'watery_eyes']","{'sneezing': 'stated', 'watery_eyes': 'confirmed', 'runny_nose': 'confirmed'}"
+common cold,"['nasal_congestion', 'sneezing', 'sore_throat']","{'sneezing': 'stated', 'sore_throat': 'stated', 'nasal_congestion': 'stated'}"
+common cold,['nasal_congestion'],{'nasal_congestion': 'stated'}
+common cold,"['cough', 'nasal_congestion']","{'cough': 'stated', 'nasal_congestion': 'stated'}"
+common cold,"['cough', 'fatigue', 'nasal_congestion', 'sore_throat']","{'fatigue': 'stated', 'nasal_congestion': 'stated', 'cough': 'stated', 'sore_throat': 'stated'}"
+common cold,"['fever', 'muscle_pain', 'nasal_congestion']","{'fever': 'stated', 'muscle_pain': 'stated', 'nasal_congestion': 'stated'}"
+common cold,['sore_throat'],{'sore_throat': 'stated'}
+common cold,"['cough', 'mucus']","{'cough': 'stated', 'mucus': 'stated'}"
+common cold,"['cough', 'muscle_pain', 'nasal_congestion', 'runny_nose', 'sneezing', 'sore_throat']","{'sore_throat': 'stated', 'sneezing': 'stated', 'runny_nose': 'stated', 'cough': 'confirmed', 'nasal_congestion': 'confirmed', 'muscle_pain': 'stated'}"
+common cold,"['fatigue', 'nasal_congestion', 'sneezing', 'sore_throat']","{'sneezing': 'stated', 'nasal_congestion': 'stated', 'fatigue': 'stated', 'sore_throat': 'stated'}"
+common cold,"['nasal_congestion', 'sneezing', 'sore_throat']","{'nasal_congestion': 'stated', 'sore_throat': 'stated', 'sneezing': 'stated'}"
+common cold,[],{}
+common cold,"['cough', 'nasal_congestion', 'sore_throat']","{'cough': 'stated', 'sore_throat': 'stated', 'nasal_congestion': 'stated'}"
+common cold,['headache'],{'headache': 'stated'}
+common cold,['fatigue'],{'fatigue': 'stated'}
+common cold,"['fatigue', 'sneezing', 'sore_throat']","{'sore_throat': 'stated', 'sneezing': 'stated', 'fatigue': 'stated'}"
+common cold,['cough'],{'cough': 'stated'}
+common cold,"['cough', 'fever', 'sneezing']","{'sneezing': 'stated', 'cough': 'stated', 'fever': 'stated'}"
+common cold,['sore_throat'],{'sore_throat': 'stated'}
+common cold,['nasal_congestion'],{'nasal_congestion': 'stated'}
+common cold,"['sneezing', 'sore_throat']","{'sneezing': 'stated', 'sore_throat': 'stated'}"
+common cold,"['muscle_pain', 'runny_nose', 'sore_throat']","{'muscle_pain': 'stated', 'sore_throat': 'stated', 'runny_nose': 'stated'}"
+common cold,"['fatigue', 'nasal_congestion', 'sneezing']","{'sneezing': 'stated', 'nasal_congestion': 'stated', 'fatigue': 'stated'}"
+common cold,"['nasal_congestion', 'sneezing', 'sore_throat']","{'sneezing': 'stated', 'sore_throat': 'stated', 'nasal_congestion': 'stated'}"
+common cold,"['nasal_congestion', 'sneezing', 'sore_throat']","{'sneezing': 'stated', 'nasal_congestion': 'stated', 'sore_throat': 'stated'}"
+common cold,"['cough', 'fatigue', 'nasal_congestion', 'sore_throat']","{'fatigue': 'stated', 'sore_throat': 'stated', 'cough': 'stated', 'nasal_congestion': 'stated'}"
+common cold,"['nasal_congestion', 'sneezing']","{'sneezing': 'stated', 'nasal_congestion': 'stated'}"
+common cold,"['nasal_congestion', 'sore_throat']","{'nasal_congestion': 'stated', 'sore_throat': 'stated'}"
+common cold,"['cough', 'sore_throat']","{'cough': 'stated', 'sore_throat': 'stated'}"
+common cold,"['nasal_congestion', 'sneezing', 'sore_throat']","{'sneezing': 'stated', 'nasal_congestion': 'stated', 'sore_throat': 'stated'}"
+common cold,"['fatigue', 'runny_nose', 'sneezing', 'sore_throat']","{'fatigue': 'stated', 'sore_throat': 'stated', 'runny_nose': 'stated', 'sneezing': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fever', 'headache', 'muscle_pain', 'rash']","{'fever': 'stated', 'headache': 'stated', 'eye_pain': 'stated', 'muscle_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'chills', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'chills': 'stated', 'fatigue': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'headache', 'muscle_pain', 'rash']","{'fever': 'stated', 'headache': 'stated', 'muscle_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'eye_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'eye_pain': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'chills', 'eye_pain', 'fatigue', 'fever', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'chills': 'stated', 'eye_pain': 'stated', 'fatigue': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'joint_pain': 'stated', 'eye_pain': 'stated', 'muscle_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fatigue', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'eye_pain': 'stated', 'joint_pain': 'confirmed', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'eye_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'joint_pain': 'stated', 'muscle_pain': 'stated', 'rash': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'eye_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'eye_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['fatigue', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'joint_pain': 'stated', 'rash': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fatigue', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'eye_pain', 'fatigue', 'fever', 'joint_pain', 'rash']","{'fever': 'stated', 'fatigue': 'stated', 'eye_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
+dengue,"['bleeding', 'fever', 'joint_pain', 'muscle_pain', 'rash']","{'fever': 'stated', 'muscle_pain': 'stated', 'joint_pain': 'stated', 'rash': 'stated', 'bleeding': 'stated'}"
