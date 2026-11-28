@@ -1,0 +1,121 @@
+dialogue_id,ner_concepts,ner_spans,unmapped_spans
+D008,fatigue;itching,tired | itchy,
+D010,pimples,skin breaking out,
+D025,sneezing,sneezing,
+D028,sore_throat;watery_eyes,waking | up | scratchy throat | watery eyes,waking | up
+D029,itching;rash,itching | hives,
+D043,wheezing,wheezy,
+D052,,runny,runny
+D058,,,
+D075,,air pollution,air pollution
+D076,,asthma symptoms,asthma symptoms
+D087,fever;headache;nausea,fever | headaches | nauseous,
+D089,chills;sweating,sweating | chills,
+D097,fever;headache;nausea,fever | nauseous | headache,
+D107,chills;fatigue;fever;muscle_pain;sweating,feverish | body aches | chills | sweat | exhausted,
+D108,chills;fatigue;fever,feverish | tired | chills | tired,
+D120,blisters;itching;skin_redness,red | sores | oozing | itchy,
+D125,blisters,sores,
+D126,blisters,blisters,
+D155,blisters;skin_patches,patches | oozing,
+D158,blisters;itching,oozing | itchy,
+D165,fatigue;swelling,tired | swollen,
+D166,leg_veins,twisted veins | hurt,hurt
+D168,leg_veins,bulging,
+D175,leg_veins,bulging veins | hurt,hurt
+D180,,sore,sore
+D207,fatigue,tired,
+D213,blurred_vision;fatigue,vision | blurry | fatigued | cuts,cuts
+D214,excessive_thirst;fatigue,exhausted | thirsty,
+D215,,weight,weight
+D230,excessive_thirst;fatigue,hungry | thirsty | tired,hungry
+D241,dizziness,dizzy | lightheaded,
+D253,blurred_vision,blurred vision,
+D263,,urination | waking,urination | waking
+D272,,hungry,hungry
+D277,,anxious | jittery,anxious | jittery
+D281,itching,itch,
+D300,itching,itch,
+D303,itching;skin_patches,patches | itch,
+D309,itching;skin_patches,flaky | itchy,
+D313,rash;skin_patches;skin_redness,red patches | sore,sore
+D328,cough,coughing | wake | gasping for air,wake | gasping for air
+D330,cough,cough | pain,pain
+D337,shortness_of_breath,short of breath | hurts,hurts
+D344,cough;shortness_of_breath,coughing | pain | out of breath,pain
+D352,cough,cough | hurts,hurts
+D362,nausea,jaundice | nauseous,jaundice
+D365,nausea,nauseous,
+D366,,eating,eating
+D388,itching,itching | yellowing | itching | tight,yellowing | tight
+D392,,sleepier,sleepier
+D419,,,
+D423,headache,migraines | lights,lights
+D433,headache,migraines,
+D437,headache,migraines | migraine,
+D438,headache;stiffness,pain | migraines | stiffness,pain
+D447,cloudy_urine,pressure | cloudy,pressure
+D459,bloating,bloated | pain,pain
+D463,,,
+D467,,emptying,emptying
+D477,,burning sensation,burning sensation
+D487,swelling,pain | swelling | pain,pain | pain
+D490,stiffness;swelling,pain | swelling | stiff | pain,pain | pain
+D507,stiffness,pain | stiffness | warmth,pain | warmth
+D511,stiffness,stiff | lift | stretch | stiffness,lift | stretch
+D519,swelling,pain | swelling | pain,pain | pain
+D526,nausea,feeling | full quickly | nauseous,feeling | full quickly
+D531,bloating,bloating | discomfort | bloated,discomfort
+D538,,,
+D553,dizziness,pain | lightheaded | dizzy,pain
+D556,,weight | eating,weight | eating
+D575,,,
+D576,,,
+D582,,pain,pain
+D583,,,
+D591,,,
+D616,blisters;fever;itching;rash,itchy | spots | blisters | fever,
+D619,fever;rash,rash | fever,
+D626,fever;rash;skin_redness,red spots | fever,
+D634,blisters;fever,blisters | fever,
+D638,fever;rash,rash | fever,
+D641,fatigue;fever,fever | pain | weakness,pain
+D643,fever,fever | pain | loose,pain | loose
+D647,diarrhea;fever,fever | diarrhea,
+D649,fever,feverish,
+D675,diarrhea;fatigue;fever,weak | fever | pain | diarrhea,pain
+D681,anal_swelling_lump,lump | hurts,hurts
+D685,swelling,pain | swelling,pain
+D707,anal_swelling_lump,hemorrhoids | worse,worse
+D714,anal_swelling_lump,lump | painful | pain,painful | pain
+D718,itching;swelling,swelling | itching,
+D729,,lose weight | lose weight,lose weight | lose weight
+D731,,,
+D734,fatigue,tired,
+D739,,,
+D743,,,
+D767,heartburn,heartburn,
+D771,,burning sensation,burning sensation
+D772,,burning in,burning in
+D777,heartburn,uncomfortable | heartburn,uncomfortable
+D778,,waking | up | burning sensation | sour taste | it,waking | up | burning sensation | sour taste | it
+D808,,,
+D814,,scars,scars
+D817,,,
+D821,,,
+D834,pimples,small | pimples,small
+D854,itching,itchy | feel wet,feel wet
+D861,,dry,dry
+D862,rash;skin_patches,rash | flaky,
+D876,rash,rash,
+D877,skin_patches,white patches,
+D882,runny_nose;sneezing,runny nose | sneezing | pain,pain
+D883,,smell,smell
+D888,,,
+D916,cough;nasal_congestion;sore_throat,sore throat | stuffy nose | coughing | sore,sore
+D919,fatigue;sneezing,fatigue | sneezing,
+D927,bleeding;fever,fever | aching | bleeding,aching
+D928,fever,fever | aching,aching
+D935,fever,fever,
+D945,fatigue;fever;rash,weak | feverish | rash,
+D955,fatigue;fever,fever | weak | bled,bled

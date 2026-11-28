@@ -1,0 +1,41 @@
+item,coviddialog_index,A_code,A_missed_symptoms,B_code,B_missed_symptoms,adjudicated_code
+1,112,D,,D,,D
+2,295,Q,,Q,,Q
+3,463,D,,D,,D
+4,475,D,,D,,D
+5,92,D,,D,,D
+6,206,D,,D,,D
+7,569,Q,,Q,,Q
+8,593,D,,D,,D
+9,518,D,,S,stress,D
+10,378,S,"Pandemic stress, lack of sleep",V,,S
+11,537,V,,Q,,V
+12,513,Q,,Q,,Q
+13,450,Q,,Q,,Q
+14,560,Q,,V,,Q
+15,394,V,,V,,V
+16,223,V,,Q,,V
+17,3,Q,,Q,,Q
+18,587,Q,,Q,,Q
+19,74,Q,,Q,,Q
+20,101,Q,,Q,,Q
+21,262,Q,,Q,,Q
+22,88,Q,,Q,,Q
+23,410,Q,,Q,,Q
+24,9,S,"Pneumonia, low-grade temperature",S,reported low-grade temperature (99),S
+25,287,D,Mother hospitalized with pneumonia,D,,D
+26,196,V,,V,,V
+27,363,V,,V,,V
+28,229,Q,,Q,,Q
+29,318,Q,,Q,,Q
+30,329,Q,,Q,,Q
+31,344,V,,V,,V
+32,72,S,"fluid in bronchials, gurgling",S,"recurrent fluid in bronchials, gurgling",S
+33,310,Q,,Q,,Q
+34,82,S,"piece of tonsil hanging off, discomfort",S,"dangling tonsil tissue, discomfort",S
+35,521,Q,,Q,,Q
+36,505,S,can't breathe well,S,difficulty breathing,S
+37,267,S,confusion,S,confusion,S
+38,417,V,,V,,V
+39,137,D,,D,,D
+40,542,Q,,Q,,Q

@@ -1,0 +1,101 @@
+{
+ "V": {
+  "annot_sentence": "The two annotators agreed closely (Cohen's kappa = 0.994 over concept presence; identical labels in 117 of 120 dialogues), and the three disagreements were adjudicated against the written guidelines. Against the adjudicated labels (270 concept mentions), the extractor reached precision 0.882, recall 0.915, and F1 0.898 (95% CI 0.869\u20130.927; Table V). The preprint extractor reached F1 0.866, and the transformer NER baseline combined high precision (0.889) with low recall (0.444; F1 0.593), because many of its spans (\"pain,\" \"hurts,\" \"sore\") do not identify a specific concept. Disabling elliptical-reply resolution lowered recall to 0.870; disabling negation lowered precision only to 0.870, because denied symptoms were rare in the sample. These figures are measured within the 52-concept vocabulary: both annotators also listed at least one symptom outside it in 28 of the 120 dialogues.",
+  "nocon_sentence": "In the 40 dialogues in which the preprint extractor had found no symptom (kappa = 0.868 over the four codes; three disagreements adjudicated), 21 contained only management, medication, or lifestyle talk, 3 were coded as other, none relied only on elliptical replies, and 16 stated symptoms that the preprint extractor missed. The revised extractor recovered only one of these (hives). Of the remaining 15, 7 were lay variants of existing concepts that the patterns do not cover (\"my nose is completely blocked,\" \"pain every time I urinate,\" \"pain in my elbows\"), and 8 were symptoms outside the lexicon, such as a racing heart, disturbed sleep, anxiety, nail changes, or feeling off-balance.",
+  "oov_sentence": "both annotators listed at least one out-of-lexicon symptom in 28 of the 120 annotated dialogues, for example urinary urgency, early satiety, loss of smell, and dry skin",
+  "abs_annot": "Against two annotators (kappa 0.99), the extractor reached an F1 score of 0.898. ",
+  "covid_code_sentence": "In the coded sample of 40 real messages without an extracted symptom (kappa = 0.82), 18 contained no current symptom, 9 concerned an existing diagnosis or treatment, 7 mentioned symptoms only vaguely (\"i have covid 19 symptoms\"), and 6 stated a symptom that the extractor missed, such as a low-grade temperature, a gurgling chest, confusion, or a misspelled breathing complaint. Most of the coverage gap on real text therefore reflects messages without symptom reports, although lay and misspelled variants also cause misses."
+ },
+ "table_rows": [
+  [
+   "Extractor v2 (frozen)",
+   "0.882",
+   "0.915",
+   "0.898",
+   "87.9"
+  ],
+  [
+   "  without negation",
+   "0.870",
+   "0.919",
+   "0.894",
+   "88.5"
+  ],
+  [
+   "  without elliptical replies",
+   "0.897",
+   "0.870",
+   "0.883",
+   "87.4"
+  ],
+  [
+   "Preprint extractor (v1)",
+   "0.881",
+   "0.852",
+   "0.866",
+   "87.5"
+  ],
+  [
+   "Transformer NER [@raza]",
+   "0.889",
+   "0.444",
+   "0.593",
+   "\u2014"
+  ]
+ ],
+ "table_note": "Reference: 270 concept mentions in 120 dialogues, adjudicated from two independent annotators (Cohen's kappa = 0.994). Micro-averaged over concept mentions; 95% CI for F1 of extractor v2: 0.869\u20130.927 (percentile bootstrap over dialogues). NER: patient turns, entities mapped to concepts, no negation handling. Coverage: percentage of all 960 dialogues with at least one extracted concept.",
+ "finB": {
+  "M": 21,
+  "O": 3,
+  "S": 16
+ },
+ "finC": {
+  "D": 9,
+  "Q": 18,
+  "S": 6,
+  "V": 7
+ },
+ "oov_both": [
+  "D772",
+  "D526",
+  "D213",
+  "D511",
+  "D309",
+  "D263",
+  "D814",
+  "D553",
+  "D876",
+  "D883",
+  "D467",
+  "D230",
+  "D108",
+  "D531",
+  "D877",
+  "D419",
+  "D854",
+  "D817",
+  "D777",
+  "D477",
+  "D362",
+  "D888",
+  "D447",
+  "D277",
+  "D808",
+  "D463",
+  "D392",
+  "D388"
+ ],
+ "adjB": {
+  "D579": "M",
+  "D724": "M",
+  "D737": "M"
+ },
+ "adjC": {
+  "518": "D",
+  "378": "S",
+  "537": "V",
+  "560": "Q",
+  "223": "V",
+  "287": "D"
+ }
+}

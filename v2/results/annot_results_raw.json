@@ -1,0 +1,788 @@
+{
+ "n": 120,
+ "kappa": 0.9941829029551599,
+ "identical_dialogues": 117,
+ "n_concepts_A": 270,
+ "n_concepts_B": 269,
+ "typo_fixes": 1,
+ "disagreements": {
+  "D168": {
+   "A": [
+    "leg_veins"
+   ],
+   "B": [
+    "leg_veins",
+    "swelling"
+   ],
+   "gold": [
+    "leg_veins"
+   ],
+   "note": "\"bulging and swollen\" describes the veins, which the leg_veins concept covers; no separate swelling"
+  },
+  "D438": {
+   "A": [
+    "headache",
+    "neck_pain"
+   ],
+   "B": [
+    "neck_pain"
+   ],
+   "gold": [
+    "headache",
+    "neck_pain"
+   ],
+   "note": "ongoing migraines counted as headache, consistent with D433 and D437 where both annotators did so"
+  },
+  "D419": {
+   "A": [
+    "headache"
+   ],
+   "B": [],
+   "gold": [
+    "headache"
+   ],
+   "note": "migraines \"still affecting my life\" are current; counted as headache as in D433 and D437"
+  }
+ },
+ "gold_total": 270,
+ "gold_empty": 13,
+ "v1_unknown_concepts": [],
+ "prf": {
+  "v2": {
+   "p": 0.8821428571428571,
+   "r": 0.9148148148148149,
+   "f1": 0.8981818181818182,
+   "tp": 247,
+   "fp": 33,
+   "fn": 23,
+   "ci_p": [
+    0.8441030930615107,
+    0.9212620543218615
+   ],
+   "ci_r": [
+    0.8749864718614718,
+    0.9490990449239477
+   ],
+   "ci_f1": [
+    0.8686850254368502,
+    0.9265184743957691
+   ]
+  },
+  "v2_no_negation": {
+   "p": 0.8701754385964913,
+   "r": 0.9185185185185185,
+   "f1": 0.8936936936936938,
+   "tp": 248,
+   "fp": 37,
+   "fn": 22,
+   "ci_p": [
+    0.8321153953306959,
+    0.9093935409924487
+   ],
+   "ci_r": [
+    0.879165521978022,
+    0.9523852971845672
+   ],
+   "ci_f1": [
+    0.8636254160098091,
+    0.924114671163575
+   ]
+  },
+  "v2_no_elliptical": {
+   "p": 0.8969465648854962,
+   "r": 0.8703703703703703,
+   "f1": 0.8834586466165414,
+   "tp": 235,
+   "fp": 27,
+   "fn": 35,
+   "ci_p": [
+    0.8599134862157464,
+    0.9350231660795978
+   ],
+   "ci_r": [
+    0.8200471788454909,
+    0.9176788553259141
+   ],
+   "ci_f1": [
+    0.8487331296154825,
+    0.9159582011748133
+   ]
+  },
+  "v1": {
+   "p": 0.8812260536398467,
+   "r": 0.8518518518518519,
+   "f1": 0.8662900188323918,
+   "tp": 230,
+   "fp": 31,
+   "fn": 40,
+   "ci_p": [
+    0.8381294964028777,
+    0.92
+   ],
+   "ci_r": [
+    0.8034408091229976,
+    0.8954063746950777
+   ],
+   "ci_f1": [
+    0.8336754385964913,
+    0.8978174678214388
+   ]
+  },
+  "ner": {
+   "p": 0.8888888888888888,
+   "r": 0.4444444444444444,
+   "f1": 0.5925925925925926,
+   "tp": 120,
+   "fp": 15,
+   "fn": 150,
+   "ci_p": [
+    0.8305084745762712,
+    0.9416073600973236
+   ],
+   "ci_r": [
+    0.385825297118759,
+    0.5034753447242206
+   ],
+   "ci_f1": [
+    0.5317588765235823,
+    0.6486519446275544
+   ]
+  }
+ },
+ "v2_errors": {
+  "fp": [
+   [
+    "swelling",
+    7
+   ],
+   [
+    "rash",
+    5
+   ],
+   [
+    "stiffness",
+    4
+   ],
+   [
+    "pimples",
+    4
+   ],
+   [
+    "frequent_urination",
+    2
+   ],
+   [
+    "sweating",
+    2
+   ],
+   [
+    "runny_nose",
+    2
+   ],
+   [
+    "skin_redness",
+    2
+   ],
+   [
+    "nasal_congestion",
+    1
+   ],
+   [
+    "skin_patches",
+    1
+   ],
+   [
+    "headache",
+    1
+   ],
+   [
+    "fatigue",
+    1
+   ],
+   [
+    "itching",
+    1
+   ]
+  ],
+  "fn": [
+   [
+    "painful_urination",
+    3
+   ],
+   [
+    "leg_pain_heaviness",
+    2
+   ],
+   [
+    "joint_pain",
+    2
+   ],
+   [
+    "loss_of_appetite",
+    2
+   ],
+   [
+    "cloudy_urine",
+    2
+   ],
+   [
+    "excessive_thirst",
+    1
+   ],
+   [
+    "muscle_pain",
+    1
+   ],
+   [
+    "fatigue",
+    1
+   ],
+   [
+    "abdominal_pain",
+    1
+   ],
+   [
+    "shortness_of_breath",
+    1
+   ],
+   [
+    "sore_throat",
+    1
+   ],
+   [
+    "eye_pain",
+    1
+   ],
+   [
+    "bleeding",
+    1
+   ],
+   [
+    "light_sensitivity",
+    1
+   ],
+   [
+    "weight_loss",
+    1
+   ],
+   [
+    "blisters",
+    1
+   ],
+   [
+    "watery_eyes",
+    1
+   ]
+  ],
+  "fp_items": [
+   [
+    "D685",
+    [
+     "swelling"
+    ]
+   ],
+   [
+    "D213",
+    [
+     "frequent_urination"
+    ]
+   ],
+   [
+    "D511",
+    [
+     "stiffness"
+    ]
+   ],
+   [
+    "D158",
+    [
+     "pimples"
+    ]
+   ],
+   [
+    "D168",
+    [
+     "swelling"
+    ]
+   ],
+   [
+    "D814",
+    [
+     "pimples",
+     "rash"
+    ]
+   ],
+   [
+    "D519",
+    [
+     "swelling"
+    ]
+   ],
+   [
+    "D718",
+    [
+     "swelling"
+    ]
+   ],
+   [
+    "D438",
+    [
+     "stiffness"
+    ]
+   ],
+   [
+    "D125",
+    [
+     "pimples"
+    ]
+   ],
+   [
+    "D876",
+    [
+     "sweating"
+    ]
+   ],
+   [
+    "D883",
+    [
+     "runny_nose"
+    ]
+   ],
+   [
+    "D328",
+    [
+     "nasal_congestion"
+    ]
+   ],
+   [
+    "D877",
+    [
+     "skin_patches"
+    ]
+   ],
+   [
+    "D303",
+    [
+     "rash"
+    ]
+   ],
+   [
+    "D487",
+    [
+     "swelling"
+    ]
+   ],
+   [
+    "D507",
+    [
+     "stiffness"
+    ]
+   ],
+   [
+    "D490",
+    [
+     "stiffness",
+     "swelling"
+    ]
+   ],
+   [
+    "D281",
+    [
+     "rash"
+    ]
+   ],
+   [
+    "D423",
+    [
+     "headache"
+    ]
+   ],
+   [
+    "D477",
+    [
+     "frequent_urination"
+    ]
+   ],
+   [
+    "D681",
+    [
+     "swelling"
+    ]
+   ],
+   [
+    "D888",
+    [
+     "runny_nose"
+    ]
+   ],
+   [
+    "D313",
+    [
+     "rash"
+    ]
+   ],
+   [
+    "D300",
+    [
+     "rash"
+    ]
+   ],
+   [
+    "D626",
+    [
+     "skin_redness"
+    ]
+   ],
+   [
+    "D165",
+    [
+     "fatigue"
+    ]
+   ],
+   [
+    "D862",
+    [
+     "sweating"
+    ]
+   ],
+   [
+    "D616",
+    [
+     "skin_redness"
+    ]
+   ],
+   [
+    "D025",
+    [
+     "itching"
+    ]
+   ],
+   [
+    "D821",
+    [
+     "pimples"
+    ]
+   ]
+  ],
+  "fn_items": [
+   [
+    "D166",
+    [
+     "leg_pain_heaviness"
+    ]
+   ],
+   [
+    "D213",
+    [
+     "excessive_thirst"
+    ]
+   ],
+   [
+    "D511",
+    [
+     "joint_pain"
+    ]
+   ],
+   [
+    "D916",
+    [
+     "muscle_pain"
+    ]
+   ],
+   [
+    "D366",
+    [
+     "fatigue"
+    ]
+   ],
+   [
+    "D175",
+    [
+     "leg_pain_heaviness"
+    ]
+   ],
+   [
+    "D459",
+    [
+     "painful_urination"
+    ]
+   ],
+   [
+    "D556",
+    [
+     "abdominal_pain",
+     "loss_of_appetite"
+    ]
+   ],
+   [
+    "D519",
+    [
+     "joint_pain"
+    ]
+   ],
+   [
+    "D330",
+    [
+     "shortness_of_breath"
+    ]
+   ],
+   [
+    "D882",
+    [
+     "sore_throat"
+    ]
+   ],
+   [
+    "D955",
+    [
+     "bleeding",
+     "eye_pain"
+    ]
+   ],
+   [
+    "D423",
+    [
+     "light_sensitivity"
+    ]
+   ],
+   [
+    "D215",
+    [
+     "weight_loss"
+    ]
+   ],
+   [
+    "D477",
+    [
+     "cloudy_urine",
+     "painful_urination"
+    ]
+   ],
+   [
+    "D463",
+    [
+     "cloudy_urine",
+     "painful_urination"
+    ]
+   ],
+   [
+    "D272",
+    [
+     "loss_of_appetite"
+    ]
+   ],
+   [
+    "D619",
+    [
+     "blisters"
+    ]
+   ],
+   [
+    "D025",
+    [
+     "watery_eyes"
+    ]
+   ]
+  ]
+ },
+ "oov_dialogues": 39,
+ "oov_terms_both": [
+  " dark spots",
+  " ear discharge",
+  " ear odor",
+  " indented scars",
+  " jitteriness",
+  " loss of taste",
+  " reduced feeding",
+  " reduced hearing",
+  " reduced urination",
+  " rough tongue surface",
+  " stomach discomfort",
+  " stomach fullness",
+  "abdominal discomfort",
+  "acne scars",
+  "anxiety",
+  "bladder pressure",
+  "blocked ears",
+  "darker stool",
+  "difficulty getting out of bed",
+  "dry skin",
+  "early satiety",
+  "excessive burping",
+  "excessive hunger",
+  "excessive sleepiness",
+  "hopelessness",
+  "incomplete bladder emptying",
+  "loss of smell",
+  "painful cystic lesions",
+  "persistent white tongue patches",
+  "rough skin",
+  "skin pain",
+  "stomach tightness",
+  "urinary urgency",
+  "wet ears"
+ ],
+ "sampleB": {
+  "n": 40,
+  "kappa": 0.8679867986798679,
+  "agree": 37,
+  "A": {
+   "M": 18,
+   "O": 3,
+   "S": 19
+  },
+  "B": {
+   "M": 21,
+   "O": 3,
+   "S": 16
+  },
+  "disagree": [
+   [
+    "D579",
+    "S",
+    "M",
+    null,
+    null
+   ],
+   [
+    "D724",
+    "S",
+    "M",
+    null,
+    null
+   ],
+   [
+    "D737",
+    "S",
+    "M",
+    null,
+    null
+   ]
+  ]
+ },
+ "sampleC": {
+  "n": 40,
+  "A": {
+   "D": 9,
+   "Q": 18,
+   "S": 6,
+   "V": 7
+  },
+  "B": {
+   "D": 8,
+   "Q": 19,
+   "S": 6,
+   "V": 7
+  },
+  "agree": 35,
+  "disagree_or_missing": [
+   [
+    9,
+    518,
+    "D",
+    "S",
+    null,
+    "stress",
+    null,
+    null
+   ],
+   [
+    10,
+    378,
+    "S",
+    "V",
+    "Pandemic stress, lack of sleep",
+    null,
+    null,
+    null
+   ],
+   [
+    11,
+    537,
+    "V",
+    "Q",
+    null,
+    null,
+    null,
+    null
+   ],
+   [
+    14,
+    560,
+    "Q",
+    "V",
+    null,
+    null,
+    null,
+    null
+   ],
+   [
+    16,
+    223,
+    "V",
+    "Q",
+    null,
+    null,
+    null,
+    null
+   ]
+  ],
+  "missed_A": [
+   [
+    378,
+    "Pandemic stress, lack of sleep"
+   ],
+   [
+    9,
+    "Pneumonia, low-grade temperature"
+   ],
+   [
+    287,
+    "Mother hospitalized with pneumonia"
+   ],
+   [
+    72,
+    "fluid in bronchials, gurgling"
+   ],
+   [
+    82,
+    "piece of tonsil hanging off, discomfort"
+   ],
+   [
+    505,
+    "can't breathe well"
+   ],
+   [
+    267,
+    "confusion"
+   ]
+  ],
+  "missed_B": [
+   [
+    518,
+    "stress"
+   ],
+   [
+    9,
+    "reported low-grade temperature (99)"
+   ],
+   [
+    72,
+    "recurrent fluid in bronchials, gurgling"
+   ],
+   [
+    82,
+    "dangling tonsil tissue, discomfort"
+   ],
+   [
+    505,
+    "difficulty breathing"
+   ],
+   [
+    267,
+    "confusion"
+   ]
+  ],
+  "kappa_complete": 0.818346957311535
+ }
+}
